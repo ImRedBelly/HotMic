@@ -7,11 +7,10 @@ public class MoodBar : MonoBehaviour
     public Gradient gradient;
     public Image fill;
 
-    private void Start()
+    void Start()
     {
         slider.value = 0;
         fill.color = gradient.Evaluate(0);
-        SetPoint(5);
     }
 
     public void SetPoint(int point)

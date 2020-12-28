@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
   m_Name: Jokes_9
   m_EditorClassIdentifier: 
-  jokeStart: "\u0428\u0443\u0442\u043A\u0430: "
+  jokeStart: 9
   endJoke:
-  - "\u041E\u0442\u0432\u0435\u0442 \u0445\u043E\u0440\u043E\u0448\u0438\u0439!\t"
-  - "\u041E\u0442\u0432\u0435\u0442 \u043F\u043B\u043E\u0445\u043E\u0439!"
-  trueAnswer: 1
-  falseAnswer: -1
+  - "\u0425\u043E\u0440\u043E\u0448\u0438\u0439 \u043E\u0442\u0432\u0435\u0442"
+  - "\u041F\u043B\u043E\u0445\u043E\u0439 \u043E\u0442\u0432\u0435\u0442"
+  trueAnswer: 2
+  falseAnswer: 1
