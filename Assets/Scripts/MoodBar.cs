@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class MoodBar : MonoBehaviour
 {
+    public Image fill;
     public Slider slider;
     public Gradient gradient;
-    public Image fill;
 
     void Start()
     {

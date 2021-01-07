@@ -3,19 +3,15 @@ using System.Collections;
 
 public class Pinata : MonoBehaviour
 {
-    GameObject[] canvas;
-    GameObject[] spawner;
     void Start()
     {
-        canvas = GameObject.FindGameObjectsWithTag("Canvas");
-        spawner = GameObject.FindGameObjectsWithTag("Spawner");
-
         StartCoroutine(DownPinata());
     }
     void Update()
     {
         Move();
     }
+
     void Move()
     {
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(0, 1.8f), Time.deltaTime);
@@ -27,23 +23,12 @@ public class Pinata : MonoBehaviour
     }
     IEnumerator DownPinata()
     {
-        for (int i = 0; i < canvas.Length; i++)
-        {
-            canvas[i].SetActive(false);
-        } 
-
-        for (int i = 0; i < spawner.Length; i++)
-        {
-            spawner[i].SetActive(false);
-        }
+        GameManager gameManager = FindObjectOfType<GameManager>();
+        gameManager.WorkCanvacElement(false);
 
         yield return new WaitForSeconds(5);
 
-        for (int i = 0; i < canvas.Length; i++)
-        {
-            canvas[i].SetActive(true);
-        }
-
+        gameManager.WorkCanvacElement(true);
         Destroy(gameObject);
     }
     void OnMouseDown()

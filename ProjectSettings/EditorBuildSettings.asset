@@ -12,9 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/RoadMap.unity
     guid: aa0fe36fc1de8c44b9e27dc2e7e379e4
   - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: 4b3b7eb056e4a9841863470cc86f4ead
+  - enabled: 1
     path: Assets/Scenes/Level_1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/EndGame.unity
-    guid: 5b60d9fbe6a5cff45b9e591d35e9f724
   m_configObjects: {}

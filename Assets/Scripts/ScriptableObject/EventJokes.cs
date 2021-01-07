@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Jokes", fileName = "Jokes_")]
-public class Jokes : ScriptableObject
+[CreateAssetMenu(menuName = "EventJokes", fileName = "EventJokes_")]
+public class EventJokes : ScriptableObject
 {
     [TextArea(10, 20)]
     public string jokeStart;
