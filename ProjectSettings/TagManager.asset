@@ -9,6 +9,9 @@ TagManager:
   - Pinata
   - Smile
   - Money
+  - Red
+  - Green
+  - Target
   layers:
   - Default
   - TransparentFX

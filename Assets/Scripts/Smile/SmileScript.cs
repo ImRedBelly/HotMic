@@ -1,14 +1,15 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class SmileScript : MonoBehaviour
 {
+    public ParticleSystem spawnSmile;
     public int point;
     public int speed = 3;
 
     bool upDown = true;
 
     MoodBar moodBar;
-
     void Start()
     {
         moodBar = FindObjectOfType<MoodBar>();
@@ -19,7 +20,15 @@ public class SmileScript : MonoBehaviour
     }
     void OnMouseDown()
     {
+        DestoySmile();
+    }
+
+    void DestoySmile()
+    {
         moodBar.SetPoint(point);
+        var smile = Instantiate(spawnSmile, transform.position, Quaternion.identity);
+        smile.Play();
+
         Destroy(gameObject);
     }
     void Move()
