@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
   m_Name: Jokes_1
   m_EditorClassIdentifier: 
-  jokeStart: 1
+  jokeStart: "How do you count cows?\r"
+  answerJokes: []
   endJoke:
   - "\u0425\u043E\u0440\u043E\u0448\u0438\u0439 \u043E\u0442\u0432\u0435\u0442"
   - "\u041F\u043B\u043E\u0445\u043E\u0439 \u043E\u0442\u0432\u0435\u0442"
