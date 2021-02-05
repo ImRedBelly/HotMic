@@ -6,11 +6,11 @@ using UnityEngine;
 public class Jokes : ScriptableObject
 {
     [TextArea(10, 20)]
+
     public string jokeStart;
+    public string[] jokeFinish;
 
     public Sprite[] answerJokes;
-
-    public string[] endJoke;
 
     public int trueAnswer;
 }

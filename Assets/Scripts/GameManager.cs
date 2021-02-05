@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
     public Text mainJoke;  // основа шутки
-    public Text[] answers;  // два ответа шутки 
+    public Image[] imagesAnswer;  // два ответа шутки 
 
     public MoodBar moodBar;  // шкала настроения
 
@@ -46,15 +46,15 @@ public class GameManager : MonoBehaviour
         countJokes = Random.Range(0, jokes.Count);
 
         mainJoke.text = jokes[countJokes].jokeStart;
-        answers[0].text = jokes[countJokes].endJoke[0];
-        answers[1].text = jokes[countJokes].endJoke[1];
+        imagesAnswer[0].sprite = jokes[countJokes].answerJokes[0];
+        imagesAnswer[1].sprite = jokes[countJokes].answerJokes[1];
     }
 
     void UpdateEventJokes()
     {
         mainJoke.text = eventJokes[0].jokeStart;
-        answers[0].text = eventJokes[0].endJoke[0];
-        answers[1].text = eventJokes[0].endJoke[1];
+        imagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
+        imagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
     }
 
 
@@ -62,12 +62,15 @@ public class GameManager : MonoBehaviour
     {
         if (jokes.Count > 0)
         {
+
             if (nummer == jokes[countJokes].trueAnswer)
             {
+                mainJoke.text = jokes[countJokes].jokeFinish[nummer];
                 TrueAnswer();
             }
             else
             {
+                mainJoke.text = jokes[countJokes].jokeFinish[nummer];
                 FalseAnswer();
             }
 

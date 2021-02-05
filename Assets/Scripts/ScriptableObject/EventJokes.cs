@@ -7,8 +7,7 @@ public class EventJokes : ScriptableObject
 {
     [TextArea(10, 20)]
     public string jokeStart;
-
-    public string[] endJoke;
+    public Sprite[] answerJokes;
 
     public int trueAnswer;
 }

@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: 75418eca39e46e1478213f5f3e548322
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6796212130108718609
+    second: chel_speak_05_10FPS_0
+  - first:
+      213: -8336740725461467917
+    second: chel_speak_05_10FPS_1
+  - first:
+      213: 8081108221837946218
+    second: chel_speak_05_10FPS_2
+  - first:
+      213: -2847771596230009746
+    second: chel_speak_05_10FPS_3
+  - first:
+      213: -3434901338088335249
+    second: chel_speak_05_10FPS_4
+  - first:
+      213: 895360997298871636
+    second: chel_speak_05_10FPS_5
+  - first:
+      213: 2806748360195631415
+    second: chel_speak_05_10FPS_6
+  - first:
+      213: -7538962517629239020
+    second: chel_speak_05_10FPS_7
+  - first:
+      213: 2641727140349279025
+    second: chel_speak_05_10FPS_8
+  - first:
+      213: -2946346347308326240
+    second: chel_speak_05_10FPS_9
+  - first:
+      213: -8477226019988707223
+    second: chel_speak_05_10FPS_10
+  - first:
+      213: -560756017489909745
+    second: chel_speak_05_10FPS_11
+  - first:
+      213: 2476446372013982972
+    second: chel_speak_05_10FPS_12
+  - first:
+      213: 6006264826140150605
+    second: chel_speak_05_10FPS_13
+  - first:
+      213: 74216533921096446
+    second: chel_speak_05_10FPS_14
+  - first:
+      213: -1213693616116012164
+    second: chel_speak_05_10FPS_15
+  - first:
+      213: -6592827800066292508
+    second: chel_speak_05_10FPS_16
+  - first:
+      213: -4879091366991229224
+    second: chel_speak_05_10FPS_17
+  - first:
+      213: 1439495315693101378
+    second: chel_speak_05_10FPS_18
+  - first:
+      213: -3828410560390795726
+    second: chel_speak_05_10FPS_19
+  - first:
+      213: -1011310654062782896
+    second: chel_speak_05_10FPS_20
+  - first:
+      213: 3969020804977483051
+    second: chel_speak_05_10FPS_21
+  - first:
+      213: -971305261716888933
+    second: chel_speak_05_10FPS_22
+  - first:
+      213: -8948244338915140853
+    second: chel_speak_05_10FPS_23
+  - first:
+      213: -6402306559940815031
+    second: chel_speak_05_10FPS_24
+  - first:
+      213: -3425154406822677682
+    second: chel_speak_05_10FPS_25
+  - first:
+      213: -7216902764962258540
+    second: chel_speak_05_10FPS_26
+  - first:
+      213: 1919231984788616882
+    second: chel_speak_05_10FPS_27
+  - first:
+      213: 3525119175344932677
+    second: chel_speak_05_10FPS_28
+  - first:
+      213: 2119151577465534042
+    second: chel_speak_05_10FPS_29
+  - first:
+      213: -3863732595314318424
+    second: chel_speak_05_10FPS_30
+  - first:
+      213: -8231988189041133457
+    second: chel_speak_05_10FPS_31
+  - first:
+      213: 8251212425671600505
+    second: chel_speak_05_10FPS_32
+  - first:
+      213: 742344758097712900
+    second: chel_speak_05_10FPS_33
+  - first:
+      213: -5359990259138449302
+    second: chel_speak_05_10FPS_34
+  - first:
+      213: -7779947150190157155
+    second: chel_speak_05_10FPS_35
+  - first:
+      213: -2990250321327556252
+    second: chel_speak_05_10FPS_36
+  - first:
+      213: 7711258246338429870
+    second: chel_speak_05_10FPS_37
+  - first:
+      213: 2858842109874222549
+    second: chel_speak_05_10FPS_38
+  - first:
+      213: -7485019466169960096
+    second: chel_speak_05_10FPS_39
+  - first:
+      213: -5083444208839047116
+    second: chel_speak_05_10FPS_40
+  - first:
+      213: 7381703005546585910
+    second: chel_speak_05_10FPS_41
+  - first:
+      213: 8301043707338999654
+    second: chel_speak_05_10FPS_42
+  - first:
+      213: -7935286760378179775
+    second: chel_speak_05_10FPS_43
+  - first:
+      213: -5146224390066811557
+    second: chel_speak_05_10FPS_44
+  - first:
+      213: -4571519573019787542
+    second: chel_speak_05_10FPS_45
+  - first:
+      213: -1481631486462978750
+    second: chel_speak_05_10FPS_46
+  - first:
+      213: 2572993092795226986
+    second: chel_speak_05_10FPS_47
+  - first:
+      213: 473764379629463204
+    second: chel_speak_05_10FPS_48
+  - first:
+      213: 648859107070809657
+    second: chel_speak_05_10FPS_49
+  - first:
+      213: -8087527277120864014
+    second: chel_speak_05_10FPS_50
+  - first:
+      213: 2545174066970522110
+    second: chel_speak_05_10FPS_51
+  - first:
+      213: -2235916938517904627
+    second: chel_speak_05_10FPS_52
+  - first:
+      213: 2102293433657629686
+    second: chel_speak_05_10FPS_53
+  - first:
+      213: -5207212862458596266
+    second: chel_speak_05_10FPS_54
+  - first:
+      213: -3689073319779911864
+    second: chel_speak_05_10FPS_55
+  - first:
+      213: -6166832774120717212
+    second: chel_speak_05_10FPS_56
+  - first:
+      213: -8463586541246357966
+    second: chel_speak_05_10FPS_57
+  - first:
+      213: -4638120700296861414
+    second: chel_speak_05_10FPS_58
+  - first:
+      213: -5873014999001817077
+    second: chel_speak_05_10FPS_59
+  - first:
+      213: 8045396077397804120
+    second: chel_speak_05_10FPS_60
+  - first:
+      213: -6225862042286110040
+    second: chel_speak_05_10FPS_0
+  - first:
+      213: 4358418396818770413
+    second: chel_speak_05_10FPS_1
+  - first:
+      213: -2513977146439915235
+    second: chel_speak_05_10FPS_2
+  - first:
+      213: -5038178080180130973
+    second: chel_speak_05_10FPS_3
+  - first:
+      213: -7734508445454795250
+    second: chel_speak_05_10FPS_4
+  - first:
+      213: 8080959661196658824
+    second: chel_speak_05_10FPS_5
+  - first:
+      213: -8439097120451251868
+    second: chel_speak_05_10FPS_6
+  - first:
+      213: 7229808754533389968
+    second: chel_speak_05_10FPS_7
+  - first:
+      213: -4929209610515544800
+    second: chel_speak_05_10FPS_8
+  - first:
+      213: -7907739934977814752
+    second: chel_speak_05_10FPS_9
+  - first:
+      213: 1009218335709215606
+    second: chel_speak_05_10FPS_10
+  - first:
+      213: 289082890837882711
+    second: chel_speak_05_10FPS_11
+  - first:
+      213: -260792864258868018
+    second: chel_speak_05_10FPS_12
+  - first:
+      213: -1484243819005438310
+    second: chel_speak_05_10FPS_13
+  - first:
+      213: -1248477377819866296
+    second: chel_speak_05_10FPS_14
+  - first:
+      213: 7157608975412835048
+    second: chel_speak_05_10FPS_15
+  - first:
+      213: -500064184943312626
+    second: chel_speak_05_10FPS_16
+  - first:
+      213: 5814714830316892975
+    second: chel_speak_05_10FPS_17
+  - first:
+      213: 228842912298628060
+    second: chel_speak_05_10FPS_18
+  - first:
+      213: -4168144051215642283
+    second: chel_speak_05_10FPS_19
+  - first:
+      213: 5136658083145777108
+    second: chel_speak_05_10FPS_20
+  - first:
+      213: 4661428822322011986
+    second: chel_speak_05_10FPS_21
+  - first:
+      213: 6495961469793951963
+    second: chel_speak_05_10FPS_22
+  - first:
+      213: 6187260965608541601
+    second: chel_speak_05_10FPS_23
+  - first:
+      213: 3799888601963619320
+    second: chel_speak_05_10FPS_24
+  - first:
+      213: 425829383697756342
+    second: chel_speak_05_10FPS_25
+  - first:
+      213: -3577835218503210742
+    second: chel_speak_05_10FPS_26
+  - first:
+      213: -770115716036642216
+    second: chel_speak_05_10FPS_27
+  - first:
+      213: -6554256704123007407
+    second: chel_speak_05_10FPS_28
+  - first:
+      213: -8558319170401752541
+    second: chel_speak_05_10FPS_29
+  - first:
+      213: 4871734226413195752
+    second: chel_speak_05_10FPS_30
+  - first:
+      213: 4475717241809215482
+    second: chel_speak_05_10FPS_31
+  - first:
+      213: 8271833747213094305
+    second: chel_speak_05_10FPS_32
+  - first:
+      213: -4490076572716366366
+    second: chel_speak_05_10FPS_33
+  - first:
+      213: -1444989640190453566
+    second: chel_speak_05_10FPS_34
+  - first:
+      213: -3992866522780587356
+    second: chel_speak_05_10FPS_35
+  - first:
+      213: -1925331088645655950
+    second: chel_speak_05_10FPS_36
+  - first:
+      213: -5515443179019245307
+    second: chel_speak_05_10FPS_37
+  - first:
+      213: -9130897807115025346
+    second: chel_speak_05_10FPS_38
+  - first:
+      213: 1453203347533706607
+    second: chel_speak_05_10FPS_39
+  - first:
+      213: 4152898982567068060
+    second: chel_speak_05_10FPS_40
+  - first:
+      213: 6983209055713698941
+    second: chel_speak_05_10FPS_41
+  - first:
+      213: 1670300572908955329
+    second: chel_speak_05_10FPS_42
+  - first:
+      213: 8896850494945554456
+    second: chel_speak_05_10FPS_43
+  - first:
+      213: -3631038605070883601
+    second: chel_speak_05_10FPS_44
+  - first:
+      213: -517313810987007430
+    second: chel_speak_05_10FPS_45
+  - first:
+      213: 3259263070152495783
+    second: chel_speak_05_10FPS_46
+  - first:
+      213: -4683789170825647094
+    second: chel_speak_05_10FPS_47
+  - first:
+      213: 3400998059691602304
+    second: chel_speak_05_10FPS_48
+  - first:
+      213: -5557780333862894195
+    second: chel_speak_05_10FPS_49
+  - first:
+      213: 3052024630583145597
+    second: chel_speak_05_10FPS_50
+  - first:
+      213: -9207996192636256353
+    second: chel_speak_05_10FPS_51
+  - first:
+      213: 411246866438441706
+    second: chel_speak_05_10FPS_52
+  - first:
+      213: -1034282237064214529
+    second: chel_speak_05_10FPS_53
+  - first:
+      213: 2838545480085684283
+    second: chel_speak_05_10FPS_54
+  - first:
+      213: 1441919187344433248
+    second: chel_speak_05_10FPS_55
+  - first:
+      213: 2607218296907573376
+    second: chel_speak_05_10FPS_56
+  - first:
+      213: 1342650533724775588
+    second: chel_speak_05_10FPS_57
+  - first:
+      213: -5454891252693883767
+    second: chel_speak_05_10FPS_58
+  - first:
+      213: 4269124609610605146
+    second: chel_speak_05_10FPS_59
+  - first:
+      213: 1185623894231825679
+    second: chel_speak_05_10FPS_61
+  - first:
+      213: -7489355924693976154
+    second: chel_speak_05_10FPS_62
+  - first:
+      213: -7747511838780082421
+    second: chel_speak_05_10FPS_63
+  - first:
+      213: -1869146952460497059
+    second: chel_speak_05_10FPS_64
+  - first:
+      213: 7540643100329563836
+    second: chel_speak_05_10FPS_65
+  - first:
+      213: 7924945748324543487
+    second: chel_speak_05_10FPS_66
+  - first:
+      213: 2458476545056537217
+    second: chel_speak_05_10FPS_67
+  - first:
+      213: 944912799666186631
+    second: chel_speak_05_10FPS_68
+  - first:
+      213: 6568787146390326905
+    second: chel_speak_05_10FPS_69
+  - first:
+      213: 6768188159715892401
+    second: chel_speak_05_10FPS_70
+  - first:
+      213: -8137948162135313646
+    second: chel_speak_05_10FPS_71
+  - first:
+      213: 6243112883219901164
+    second: chel_speak_05_10FPS_72
+  - first:
+      213: -6956659340160894995
+    second: chel_speak_05_10FPS_73
+  - first:
+      213: 5386029536122577943
+    second: chel_speak_05_10FPS_74
+  - first:
+      213: 5916049461930216839
+    second: chel_speak_05_10FPS_75
+  - first:
+      213: 7928042560835971801
+    second: chel_speak_05_10FPS_76
+  - first:
+      213: 7452174218980473424
+    second: chel_speak_05_10FPS_77
+  - first:
+      213: -5027598467251824003
+    second: chel_speak_05_10FPS_78
+  - first:
+      213: -3573814655260469639
+    second: chel_speak_05_10FPS_79
+  - first:
+      213: -796275171735919393
+    second: chel_speak_05_10FPS_80
+  - first:
+      213: 6437157494830625128
+    second: chel_speak_05_10FPS_81
+  - first:
+      213: -9009684145379054829
+    second: chel_speak_05_10FPS_82
+  - first:
+      213: 706078094120610082
+    second: chel_speak_05_10FPS_83
+  - first:
+      213: 7230808703820268136
+    second: chel_speak_05_10FPS_84
+  - first:
+      213: 5925101458702203041
+    second: chel_speak_05_10FPS_85
+  - first:
+      213: -7294628304261984850
+    second: chel_speak_05_10FPS_86
+  - first:
+      213: 5427137467710325389
+    second: chel_speak_05_10FPS_87
+  - first:
+      213: 7627018650549660151
+    second: chel_speak_05_10FPS_88
+  - first:
+      213: -4902271105702732358
+    second: chel_speak_05_10FPS_89
+  - first:
+      213: -4773226242162976498
+    second: chel_speak_05_10FPS_90
+  - first:
+      213: -4276990187969459331
+    second: chel_speak_05_10FPS_91
+  - first:
+      213: -5659187501709996530
+    second: chel_speak_05_10FPS_92
+  - first:
+      213: -7909805212958313561
+    second: chel_speak_05_10FPS_93
+  - first:
+      213: -1386103227685599932
+    second: chel_speak_05_10FPS_94
+  - first:
+      213: -5286876722395122450
+    second: chel_speak_05_10FPS_95
+  - first:
+      213: -4747056743780639362
+    second: chel_speak_05_10FPS_96
+  - first:
+      213: 7969140207600994640
+    second: chel_speak_05_10FPS_97
+  - first:
+      213: 1931008703283532591
+    second: chel_speak_05_10FPS_98
+  - first:
+      213: -6799374865182771292
+    second: chel_speak_05_10FPS_99
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aac2f4657b4999a0800000000000000
+      internalID: -6225862042286110040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_1
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de909e4a0763c7c30800000000000000
+      internalID: 4358418396818770413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_2
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19affcda1f8c1dd0800000000000000
+      internalID: -2513977146439915235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b24bfbabbc41ab0800000000000000
+      internalID: -5038178080180130973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_4
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e786c4c8189a490800000000000000
+      internalID: -7734508445454795250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_5
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88843e14ff5552070800000000000000
+      internalID: 8080959661196658824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_6
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4613b7691ed42ea80800000000000000
+      internalID: -8439097120451251868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_7
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096d8ffc1c0755460800000000000000
+      internalID: 7229808754533389968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_8
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02587cda9fde79bb0800000000000000
+      internalID: -4929209610515544800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_9
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f0a771d60124290800000000000000
+      internalID: -7907739934977814752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_10
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b32c0bab6710e00800000000000000
+      internalID: 1009218335709215606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_11
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 4800
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f80b8b57030400800000000000000
+      internalID: 289082890837882711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccb4ed854a716cf0800000000000000
+      internalID: -260792864258868018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a969c184c18e66be0800000000000000
+      internalID: -1484243819005438310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b8fe880748caee0800000000000000
+      internalID: -1248477377819866296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_15
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e231a4c07fe45360800000000000000
+      internalID: 7157608975412835048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e010f83f54a6f09f0800000000000000
+      internalID: -500064184943312626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_17
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23fb3b945402b050800000000000000
+      internalID: 5814714830316892975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3fce09a630d2300800000000000000
+      internalID: 228842912298628060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_19
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55152a6b117c726c0800000000000000
+      internalID: -4168144051215642283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_20
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dffa8abf43194740800000000000000
+      internalID: 5136658083145777108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_21
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f554c01d8b0b040800000000000000
+      internalID: 4661428822322011986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_22
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd061b92a8a462a50800000000000000
+      internalID: 6495961469793951963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_23
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 3600
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adccb311119dd550800000000000000
+      internalID: 6187260965608541601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3e8120d8aebb430800000000000000
+      internalID: 3799888601963619320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_25
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b07a3e7199d8e500800000000000000
+      internalID: 425829383697756342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_26
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09eb3033d9f85ec0800000000000000
+      internalID: -3577835218503210742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_27
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ab0b526dfff45f0800000000000000
+      internalID: -770115716036642216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_28
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e8608e04a9a05a0800000000000000
+      internalID: -6554256704123007407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_29
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32aa9c5fe0eba3980800000000000000
+      internalID: -8558319170401752541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_30
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e19875a770eb9340800000000000000
+      internalID: 4871734226413195752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_31
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff11293e11fc1e30800000000000000
+      internalID: 4475717241809215482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_32
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad89bf87f47bc270800000000000000
+      internalID: 8271833747213094305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_33
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e500f4852b00b1c0800000000000000
+      internalID: -4490076572716366366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_34
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c81450049d52fbe0800000000000000
+      internalID: -1444989640190453566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_35
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 2400
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa2d1a7d0d7698c0800000000000000
+      internalID: -3992866522780587356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27272426399d745e0800000000000000
+      internalID: -1925331088645655950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_37
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 509e4b796a53573b0800000000000000
+      internalID: -5515443179019245307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_38
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34048e62d8884180800000000000000
+      internalID: -9130897807115025346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65b724ceb0da2410800000000000000
+      internalID: 1453203347533706607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_40
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91cdf32f9f02a930800000000000000
+      internalID: 4152898982567068060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_41
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d742b1633a759e060800000000000000
+      internalID: 6983209055713698941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_42
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6ae5c75891e2710800000000000000
+      internalID: 1670300572908955329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_43
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810fcfa3366f77b70800000000000000
+      internalID: 8896850494945554456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_44
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4250370a5fb9dc0800000000000000
+      internalID: -3631038605070883601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_45
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3247ba64d122d8f0800000000000000
+      internalID: -517313810987007430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_46
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a21df57e7a3b3d20800000000000000
+      internalID: 3259263070152495783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_47
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 1200
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0cad1e9096dffeb0800000000000000
+      internalID: -4683789170825647094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081f5bd47b5c23f20800000000000000
+      internalID: 3400998059691602304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_49
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8543749b3cced2b0800000000000000
+      internalID: -5557780333862894195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_50
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b6af2b38fa5a20800000000000000
+      internalID: 3052024630583145597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_51
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f34c4bf30a63080800000000000000
+      internalID: -9207996192636256353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_52
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea4e0d98da05b500800000000000000
+      internalID: 411246866438441706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_53
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78a4609cd75a1f0800000000000000
+      internalID: -1034282237064214529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_54
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b304c4b231a846720800000000000000
+      internalID: 2838545480085684283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_55
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0602c7c7cd9b20410800000000000000
+      internalID: 1441919187344433248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_56
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08823173a33be2420800000000000000
+      internalID: 2607218296907573376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_57
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a46728fb8d02a210800000000000000
+      internalID: 1342650533724775588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_58
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984abc29e455c44b0800000000000000
+      internalID: -5454891252693883767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chel_speak_05_10FPS_59
+      rect:
+        serializedVersion: 2
+        x: 6600
+        y: 0
+        width: 600
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52e7b1b63afe3b30800000000000000
+      internalID: 4269124609610605146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

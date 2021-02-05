@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: Jokes_2
   m_EditorClassIdentifier: 
   jokeStart: 2
-  endJoke:
-  - "\u041F\u043B\u043E\u0445\u043E\u0439 \u043E\u0442\u0432\u0435\u0442"
-  - "\u0425\u043E\u0440\u043E\u0448\u0438\u0439 \u043E\u0442\u0432\u0435\u0442"
+  jokeFinish:
+  - 2 + 0
+  - 2 + 1
+  answerJokes:
+  - {fileID: 21300000, guid: c5e6d0a73eeda4d45b968dee69b77809, type: 3}
+  - {fileID: 21300000, guid: 598faab45b49e2440abc5c26cabd6c84, type: 3}
   trueAnswer: 1

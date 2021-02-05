@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EventJokes_1
   m_EditorClassIdentifier: 
   jokeStart: "\u0428\u0443\u0447\u0443 \u043F\u0440\u043E \u0441\u0432\u044F\u0449\u0435\u043D\u0438\u043A\u0430!"
-  endJoke:
-  - "\u0422\u044B \u0432\u0441\u0435\u0445 \u043E\u0441\u043A\u043E\u0440\u0431\u0438\u043B!"
-  - "\u0422\u044B \u0432\u0441\u0435\u0445 \u043F\u043E\u0432\u0435\u0441\u0435\u043B\u0438\u043B!"
+  answerJokes:
+  - {fileID: 21300000, guid: aecaae65879cbe643a3ee2623a853989, type: 3}
+  - {fileID: 21300000, guid: c5e6d0a73eeda4d45b968dee69b77809, type: 3}
   trueAnswer: 1
