@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
     public Text mainJoke;  // основа шутки
-    public Image[] imagesAnswer;  // два ответа шутки 
+    public SpriteRenderer[] swipeImagesAnswer;  // два ответа шутки 
 
     public MoodBar moodBar;  // шкала настроения
 
@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
     int moneyInt = 0;
 
 
-    int countJokes;
+    public int countJokes;
     int trueAnswer = 0;
 
     void Start()
@@ -46,55 +46,58 @@ public class GameManager : MonoBehaviour
         countJokes = Random.Range(0, jokes.Count);
 
         mainJoke.text = jokes[countJokes].jokeStart;
-        imagesAnswer[0].sprite = jokes[countJokes].answerJokes[0];
-        imagesAnswer[1].sprite = jokes[countJokes].answerJokes[1];
+        swipeImagesAnswer[0].sprite = jokes[countJokes].answerJokes[0];
+        swipeImagesAnswer[1].sprite = jokes[countJokes].answerJokes[1];
     }
 
     void UpdateEventJokes()
     {
         mainJoke.text = eventJokes[0].jokeStart;
-        imagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
-        imagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
+        swipeImagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
+        swipeImagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
     }
 
 
     public void Button(int nummer)
     {
-        if (jokes.Count > 0)
-        {
+        //if (jokes.Count > 0)
+        //{
 
-            if (nummer == jokes[countJokes].trueAnswer)
-            {
-                mainJoke.text = jokes[countJokes].jokeFinish[nummer];
-                TrueAnswer();
-            }
-            else
-            {
-                mainJoke.text = jokes[countJokes].jokeFinish[nummer];
-                FalseAnswer();
-            }
+        //    if (nummer == jokes[countJokes].trueAnswer)
+        //    {
+        //        mainJoke.text = jokes[countJokes].jokeFinish[nummer];
+        //        TrueAnswer();
+        //    }
+        //    else
+        //    {
+        //        mainJoke.text = jokes[countJokes].jokeFinish[nummer];
+        //        FalseAnswer();
+        //    }
 
-            jokes.RemoveAt(countJokes);
-        }
+        //    jokes.RemoveAt(countJokes);
+        //}
 
-        else
-        {
-            if (nummer == eventJokes[0].trueAnswer)
-            {
-                square[0].SetActive(true);
-                StartCoroutine(BonusEfect());
-            }
-            else
-            {
-                square[1].SetActive(true);
-                StartCoroutine(BonusEfect());
-            }
+        //else
+        //{
+        //    if (nummer == eventJokes[0].trueAnswer)
+        //    {
+        //        square[0].SetActive(true);
+        //        StartCoroutine(BonusEfect());
+        //    }
+        //    else
+        //    {
+        //        square[1].SetActive(true);
+        //        StartCoroutine(BonusEfect());
+        //    }
 
-            eventJokes.RemoveAt(0);
-        }
+        //    eventJokes.RemoveAt(0);
+        //}
     }
-
-    IEnumerator BonusEfect()
+    public void FinalyBonus()
+    {
+        StartCoroutine(BonusEfect());
+    }
+    public IEnumerator BonusEfect()
     {
         WorkCanvacElement(false);
         yield return new WaitForSeconds(7);
@@ -122,14 +125,15 @@ public class GameManager : MonoBehaviour
         {
             UpdateEventJokes();
         }
-        else
+        else if(eventJokes.Count == 0)
         {
+            print("я все");
             OffBonusEfect();
             resultScreen.SetActive(true);
             yourScore.text = "Score: " + score;
         }
     }
-    void TrueAnswer()
+    public void TrueAnswer()
     {
         trueAnswer++;
 
@@ -140,7 +144,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(BonusEfect());
         goodSmile.SetActive(true);
     }
-    void FalseAnswer()
+    public void FalseAnswer()
     {
         trueAnswer--;
 
@@ -180,6 +184,7 @@ public class GameManager : MonoBehaviour
 
     public void OffBonusEfect()
     {
+        print("я все dct");
         for (int i = 0; i < square.Length; i++)
         {
             square[i].SetActive(false);
