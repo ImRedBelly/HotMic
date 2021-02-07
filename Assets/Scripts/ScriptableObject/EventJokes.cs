@@ -10,4 +10,5 @@ public class EventJokes : ScriptableObject
     public Sprite[] answerJokes;
 
     public int trueAnswer;
+
 }

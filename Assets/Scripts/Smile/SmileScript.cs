@@ -35,7 +35,7 @@ public class SmileScript : MonoBehaviour
     {
         if (upDown)
         {
-            if (transform.position.y < 0)
+            if (transform.position.y < 0.85f)
             {
                 transform.Translate(Vector2.up * Time.deltaTime * speed);
             }

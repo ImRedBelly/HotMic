@@ -6,8 +6,12 @@ using System.Collections.Generic;
 public class GameManager : MonoBehaviour
 {
     public Text mainJoke;  // основа шутки
+    public GameObject mainJokeObject;
     public SpriteRenderer[] swipeImagesAnswer;  // два ответа шутки 
 
+    public AudioManager audioManager;
+    public Animator animator;
+    public Animator animatorEventJoke;
     public MoodBar moodBar;  // шкала настроения
 
     public List<Jokes> jokes;  // лист шуток 
@@ -25,18 +29,23 @@ public class GameManager : MonoBehaviour
     [Header("Score Setting")]
     public GameObject resultScreen;
     public Text yourScore;
-    public int score;
+    
 
 
     public static string moneyKey = "Money";  // сохранение денег
-    int moneyInt = 0;
+    public int moneyInt = 0;
 
 
     public int countJokes;
-    int trueAnswer = 0;
+    public int trueAnswer = 0;
 
+
+    public AudioClip woo;
+    public AudioClip poo;
     void Start()
     {
+        audioManager.audioSource.Play();
+
         moneyInt = PlayerPrefs.GetInt(moneyKey);
         UpdateJokes();
     }
@@ -58,41 +67,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void Button(int nummer)
-    {
-        //if (jokes.Count > 0)
-        //{
 
-        //    if (nummer == jokes[countJokes].trueAnswer)
-        //    {
-        //        mainJoke.text = jokes[countJokes].jokeFinish[nummer];
-        //        TrueAnswer();
-        //    }
-        //    else
-        //    {
-        //        mainJoke.text = jokes[countJokes].jokeFinish[nummer];
-        //        FalseAnswer();
-        //    }
-
-        //    jokes.RemoveAt(countJokes);
-        //}
-
-        //else
-        //{
-        //    if (nummer == eventJokes[0].trueAnswer)
-        //    {
-        //        square[0].SetActive(true);
-        //        StartCoroutine(BonusEfect());
-        //    }
-        //    else
-        //    {
-        //        square[1].SetActive(true);
-        //        StartCoroutine(BonusEfect());
-        //    }
-
-        //    eventJokes.RemoveAt(0);
-        //}
-    }
     public void FinalyBonus()
     {
         StartCoroutine(BonusEfect());
@@ -127,17 +102,16 @@ public class GameManager : MonoBehaviour
         }
         else if(eventJokes.Count == 0)
         {
-            print("я все");
             OffBonusEfect();
+            mainJokeObject.SetActive(false);       // обрати на это внимание
             resultScreen.SetActive(true);
-            yourScore.text = "Score: " + score;
+            yourScore.text = "" + moneyInt;
         }
     }
     public void TrueAnswer()
     {
+        audioManager.PlaySound(woo);
         trueAnswer++;
-
-        score++;
 
         moneyInt += 2;
         SaveMoney();
@@ -146,9 +120,8 @@ public class GameManager : MonoBehaviour
     }
     public void FalseAnswer()
     {
+        audioManager.PlaySound(poo);
         trueAnswer--;
-
-        score--;
 
         moneyInt += 1;
         SaveMoney();
@@ -172,7 +145,7 @@ public class GameManager : MonoBehaviour
         badSmile.SetActive(trigger);
     }
 
-    public void DestroySmile()       //все смайлы для уничтожения!
+    public void DestroySmile()
     {
         SmileScript[] allSmile = FindObjectsOfType<SmileScript>();
         for (int i = 0; i < allSmile.Length; i++)
@@ -184,18 +157,24 @@ public class GameManager : MonoBehaviour
 
     public void OffBonusEfect()
     {
-        print("я все dct");
         for (int i = 0; i < square.Length; i++)
         {
             square[i].SetActive(false);
         }
     }
 
-
+    public void SpeakJoke()
+    {
+        animator.SetTrigger("Speak");
+    }
     public void SaveMoney()
     {
         PlayerPrefs.SetInt(moneyKey, moneyInt);
     }
 
+    public void AnimationEventJoke()
+    {
+        animatorEventJoke.SetTrigger("SpecialJoke");
+    }
 }
 

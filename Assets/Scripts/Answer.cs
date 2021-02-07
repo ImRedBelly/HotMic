@@ -6,8 +6,10 @@ using System.Collections.Generic;
 public class Answer : MonoBehaviour
 {
     public GameManager gameManager;
-    Vector2 startPosisiton;
+
     public int answerNumber;
+
+    Vector2 startPosisiton;
 
     private void Start()
     {
@@ -16,36 +18,30 @@ public class Answer : MonoBehaviour
     public void Left()
     {
         StartCoroutine(Slide(-Vector2.right));
-       
-        print(answerNumber);
     }
     public void Right()
     {
         StartCoroutine(Slide(Vector2.right));
-
-        print(answerNumber);
     }
 
 
     IEnumerator Slide(Vector2 right)
     {
+        gameManager.SpeakJoke();
+
         float time = 0;
-        while (time < 0.5f)
+        while (time < 0.3f)
         {
             yield return new WaitForSeconds(Time.deltaTime);
             time += Time.deltaTime;
             transform.Translate(right * 20 * Time.deltaTime);
         }
-        yield return new WaitForSeconds(1);
-        UpdateAnswer();
-
         
-
+        UpdateAnswer();
     }
 
     void UpdateAnswer()
     {
-
         if (gameManager.jokes.Count > 0)
         {
 
@@ -67,12 +63,12 @@ public class Answer : MonoBehaviour
         {
             if (answerNumber == gameManager.eventJokes[0].trueAnswer)
             {
-                gameManager.square[0].SetActive(true);
+                gameManager.AnimationEventJoke();
                 gameManager.FinalyBonus();
             }
             else
             {
-                gameManager.square[1].SetActive(true);
+                gameManager.AnimationEventJoke();
                 gameManager.FinalyBonus();
             }
             gameManager.eventJokes.RemoveAt(0);

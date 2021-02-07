@@ -3,8 +3,10 @@ using System.Collections;
 
 public class Pinata : MonoBehaviour
 {
+    GameManager gameManager;
     void Start()
     {
+        gameManager = FindObjectOfType<GameManager>();
         StartCoroutine(DownPinata());
     }
     void Update()
@@ -23,7 +25,6 @@ public class Pinata : MonoBehaviour
     }
     IEnumerator DownPinata()
     {
-        GameManager gameManager = FindObjectOfType<GameManager>();
         gameManager.WorkCanvacElement(false);
 
         yield return new WaitForSeconds(5);
@@ -33,6 +34,6 @@ public class Pinata : MonoBehaviour
     }
     void OnMouseDown()
     {
-        print("BONUS");
+        gameManager.moneyInt++;
     }
 }

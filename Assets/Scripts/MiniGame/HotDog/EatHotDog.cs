@@ -16,9 +16,9 @@ public class EatHotDog : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            if (EventSystem.current.IsPointerOverGameObject() && countHotDog > 0)
+            if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId) && countHotDog > 0)
             {
                 hotDog.sprite = allHotDogs[countHotDog - 1];
                 countHotDog--;

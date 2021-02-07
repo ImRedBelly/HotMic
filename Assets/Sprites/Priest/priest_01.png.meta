@@ -1,0 +1,1613 @@
+fileFormatVersion: 2
+guid: 374836a8185037f478d275305fec52b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4737236456104590811
+    second: priest_01_0
+  - first:
+      213: -9095892875856951731
+    second: priest_01_1
+  - first:
+      213: -2665540880812959258
+    second: priest_01_2
+  - first:
+      213: -7125360460408314830
+    second: priest_01_3
+  - first:
+      213: 3061750415342885808
+    second: priest_01_4
+  - first:
+      213: 5046534252461712529
+    second: priest_01_5
+  - first:
+      213: 1255098040497216397
+    second: priest_01_6
+  - first:
+      213: -6301603139881133473
+    second: priest_01_7
+  - first:
+      213: 3252295946835246255
+    second: priest_01_8
+  - first:
+      213: 7246681744957027740
+    second: priest_01_9
+  - first:
+      213: 7659531268940593737
+    second: priest_01_10
+  - first:
+      213: 6873539494029810628
+    second: priest_01_11
+  - first:
+      213: 646851105517466159
+    second: priest_01_12
+  - first:
+      213: -6530859061706129847
+    second: priest_01_13
+  - first:
+      213: 1629521535208255962
+    second: priest_01_14
+  - first:
+      213: 7544768801286094449
+    second: priest_01_15
+  - first:
+      213: 7133338678710526445
+    second: priest_01_16
+  - first:
+      213: -3056990851130599295
+    second: priest_01_17
+  - first:
+      213: 3676292271114769355
+    second: priest_01_18
+  - first:
+      213: -718829803902933014
+    second: priest_01_19
+  - first:
+      213: 9062111671871900396
+    second: priest_01_20
+  - first:
+      213: 5775152286269632092
+    second: priest_01_21
+  - first:
+      213: 8104598534306448843
+    second: priest_01_22
+  - first:
+      213: 597460518773231855
+    second: priest_01_23
+  - first:
+      213: -175920320480498292
+    second: priest_01_24
+  - first:
+      213: 356837379957652407
+    second: priest_01_25
+  - first:
+      213: -5244803986085344896
+    second: priest_01_26
+  - first:
+      213: -8298730786225094329
+    second: priest_01_27
+  - first:
+      213: 3745342657632409845
+    second: priest_01_28
+  - first:
+      213: 593633500429614892
+    second: priest_01_29
+  - first:
+      213: -5171717846919182664
+    second: priest_01_30
+  - first:
+      213: -6951513676301860151
+    second: priest_01_31
+  - first:
+      213: -3918867975667102618
+    second: priest_01_32
+  - first:
+      213: 7689429918601126464
+    second: priest_01_33
+  - first:
+      213: -9162986723946607251
+    second: priest_01_34
+  - first:
+      213: -6428836889477087762
+    second: priest_01_35
+  - first:
+      213: -3542348765661329434
+    second: priest_01_36
+  - first:
+      213: -2340922929194065561
+    second: priest_01_37
+  - first:
+      213: -542837022007828268
+    second: priest_01_38
+  - first:
+      213: -4527161261881249891
+    second: priest_01_39
+  - first:
+      213: -641909842670172998
+    second: priest_01_40
+  - first:
+      213: -4731456317778502627
+    second: priest_01_41
+  - first:
+      213: -6732174848260029545
+    second: priest_01_42
+  - first:
+      213: -8253376344390870683
+    second: priest_01_43
+  - first:
+      213: 1117829852795984407
+    second: priest_01_44
+  - first:
+      213: 4344006699992360224
+    second: priest_01_45
+  - first:
+      213: 756275085342584728
+    second: priest_01_46
+  - first:
+      213: -7660194776781092401
+    second: priest_01_47
+  - first:
+      213: -8080756540422654343
+    second: priest_01_48
+  - first:
+      213: 5476305654194998560
+    second: priest_01_49
+  - first:
+      213: 23346159002045183
+    second: priest_01_50
+  - first:
+      213: 4344216775710183316
+    second: priest_01_51
+  - first:
+      213: -4812019694231797560
+    second: priest_01_2
+  - first:
+      213: 2603182369572676861
+    second: priest_01_3
+  - first:
+      213: -6672394243059729418
+    second: priest_01_4
+  - first:
+      213: 441033633748503138
+    second: priest_01_6
+  - first:
+      213: -5921263416225202373
+    second: priest_01_7
+  - first:
+      213: 4873341496158739441
+    second: priest_01_8
+  - first:
+      213: -157656620634816634
+    second: priest_01_9
+  - first:
+      213: 867233367880934919
+    second: priest_01_10
+  - first:
+      213: -8025965940597788154
+    second: priest_01_11
+  - first:
+      213: 8729876373965069613
+    second: priest_01_12
+  - first:
+      213: -4167156106325008382
+    second: priest_01_13
+  - first:
+      213: 69861138527367514
+    second: priest_01_14
+  - first:
+      213: 5455454531690209039
+    second: priest_01_15
+  - first:
+      213: -3611707134472534088
+    second: priest_01_16
+  - first:
+      213: 8697949827893290224
+    second: priest_01_17
+  - first:
+      213: -8171669460978709476
+    second: priest_01_18
+  - first:
+      213: 4177145381466657338
+    second: priest_01_19
+  - first:
+      213: -4826328046796191329
+    second: priest_01_20
+  - first:
+      213: 3776597281467550537
+    second: priest_01_21
+  - first:
+      213: -5160873832692896606
+    second: priest_01_22
+  - first:
+      213: -417879771427964348
+    second: priest_01_23
+  - first:
+      213: 8856533798075165954
+    second: priest_01_24
+  - first:
+      213: 3543470206065878645
+    second: priest_01_25
+  - first:
+      213: -2464900334760037931
+    second: priest_01_26
+  - first:
+      213: -981359198962957622
+    second: priest_01_27
+  - first:
+      213: -9196508970311483698
+    second: priest_01_28
+  - first:
+      213: -7073999389473775870
+    second: priest_01_29
+  - first:
+      213: -8366310979685215944
+    second: priest_01_30
+  - first:
+      213: -6910073326674563379
+    second: priest_01_31
+  - first:
+      213: -2896028530335256465
+    second: priest_01_32
+  - first:
+      213: -8377061954085946785
+    second: priest_01_33
+  - first:
+      213: 7484237562383966153
+    second: priest_01_34
+  - first:
+      213: -7767537125658597867
+    second: priest_01_35
+  - first:
+      213: 6743004578959383926
+    second: priest_01_36
+  - first:
+      213: 5391252026227218451
+    second: priest_01_37
+  - first:
+      213: 5080219075253950121
+    second: priest_01_38
+  - first:
+      213: 6105174637150597724
+    second: priest_01_39
+  - first:
+      213: 1007200757510381265
+    second: priest_01_40
+  - first:
+      213: -6331567007560552616
+    second: priest_01_41
+  - first:
+      213: -5590692177790879798
+    second: priest_01_42
+  - first:
+      213: 308409617433917266
+    second: priest_01_43
+  - first:
+      213: 1129771367762154204
+    second: priest_01_44
+  - first:
+      213: -9071902422993743863
+    second: priest_01_45
+  - first:
+      213: 3429430646767432451
+    second: priest_01_46
+  - first:
+      213: -6119132311642836252
+    second: priest_01_47
+  - first:
+      213: 8982530258689326166
+    second: priest_01_48
+  - first:
+      213: 2976789551006111288
+    second: priest_01_49
+  - first:
+      213: -3221877151842246759
+    second: priest_01_50
+  - first:
+      213: 4883759804034834106
+    second: priest_01_51
+  - first:
+      213: -3002293216767278818
+    second: priest_01_52
+  - first:
+      213: -3134423555183487871
+    second: priest_01_53
+  - first:
+      213: 8848729852997509809
+    second: priest_01_54
+  - first:
+      213: -4164907313573354711
+    second: priest_01_55
+  - first:
+      213: 393044517257928974
+    second: priest_01_56
+  - first:
+      213: -2270912145789384229
+    second: priest_01_57
+  - first:
+      213: -5519620615531840505
+    second: priest_01_58
+  - first:
+      213: -6851831302704549709
+    second: priest_01_59
+  - first:
+      213: -1163306426185391358
+    second: priest_01_60
+  - first:
+      213: 8274985481091483531
+    second: priest_01_61
+  - first:
+      213: -3181664521887941090
+    second: priest_01_62
+  - first:
+      213: -1300442590162215909
+    second: priest_01_63
+  - first:
+      213: 9792298734550683
+    second: priest_01_64
+  - first:
+      213: 3236312812984630470
+    second: priest_01_65
+  - first:
+      213: 4959225300481076737
+    second: priest_01_66
+  - first:
+      213: -5576709220513687351
+    second: priest_01_67
+  - first:
+      213: 4446253096902862999
+    second: priest_01_68
+  - first:
+      213: 2566017925905601262
+    second: priest_01_69
+  - first:
+      213: 4141725522845845916
+    second: priest_01_70
+  - first:
+      213: -7860757399520091094
+    second: priest_01_71
+  - first:
+      213: 44527908974453616
+    second: priest_01_72
+  - first:
+      213: 4096185072721885500
+    second: priest_01_73
+  - first:
+      213: 5027468220326082347
+    second: priest_01_74
+  - first:
+      213: 1322134767379041105
+    second: priest_01_75
+  - first:
+      213: 3980449270744102733
+    second: priest_01_76
+  - first:
+      213: -5227010456366171174
+    second: priest_01_77
+  - first:
+      213: -7526112585479826505
+    second: priest_01_78
+  - first:
+      213: 8025963218326155137
+    second: priest_01_79
+  - first:
+      213: 4974803075250421180
+    second: priest_01_80
+  - first:
+      213: 3971972645603501942
+    second: priest_01_81
+  - first:
+      213: -3874386977827738284
+    second: priest_01_82
+  - first:
+      213: 7245420121259847179
+    second: priest_01_83
+  - first:
+      213: -6504194585297846771
+    second: priest_01_84
+  - first:
+      213: -7128427302921599312
+    second: priest_01_85
+  - first:
+      213: 8036056038298660156
+    second: priest_01_86
+  - first:
+      213: 1729959169262179064
+    second: priest_01_87
+  - first:
+      213: -5560407393964620348
+    second: priest_01_88
+  - first:
+      213: 4146519650967977119
+    second: priest_01_89
+  - first:
+      213: 6119209697562531203
+    second: priest_01_90
+  - first:
+      213: -5884072990825686718
+    second: priest_01_91
+  - first:
+      213: 775636570847064751
+    second: priest_01_92
+  - first:
+      213: 7385406251734037722
+    second: priest_01_0
+  - first:
+      213: 7582187723558304027
+    second: priest_01_1
+  - first:
+      213: -3367377832360786032
+    second: priest_01_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: priest_01_2
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 10800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c041215595483db0800000000000000
+      internalID: -4812019694231797560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_3
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 10800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df460f7a29c502420800000000000000
+      internalID: 2603182369572676861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_4
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 10800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb301da9c4e663a0800000000000000
+      internalID: -6672394243059729418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_6
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 9600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a4491d0cdde1600800000000000000
+      internalID: 441033633748503138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_7
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 9600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f716e8b4273dda0800000000000000
+      internalID: -5921263416225202373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_8
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 9600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb56bb454691a340800000000000000
+      internalID: 4873341496158739441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_9
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 9600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68fb29a8324efcdf0800000000000000
+      internalID: -157656620634816634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706a8ed3728090c00800000000000000
+      internalID: 867233367880934919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_11
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 8400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602f84b108a0e9090800000000000000
+      internalID: -8025965940597788154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_12
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 8400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d534b2f40c62970800000000000000
+      internalID: 8729876373965069613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_13
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 8400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200e5ee89994b26c0800000000000000
+      internalID: -4167156106325008382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_14
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 8400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a513789d55238f000800000000000000
+      internalID: 69861138527367514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f90b90efaa5bb40800000000000000
+      internalID: 5455454531690209039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_16
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 7200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b745013f73a0edc0800000000000000
+      internalID: -3611707134472534088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_17
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 7200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4efb5e84355b870800000000000000
+      internalID: 8697949827893290224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_18
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 7200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cc47cabe5689e80800000000000000
+      internalID: -8171669460978709476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_19
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 7200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a32db7dc79338f930800000000000000
+      internalID: 4177145381466657338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6000
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9945316630750db0800000000000000
+      internalID: -4826328046796191329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_21
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 6000
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b449dd73b296430800000000000000
+      internalID: 3776597281467550537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_22
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 6000
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac2bb7b794e068b0800000000000000
+      internalID: -5160873832692896606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_23
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 6000
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44af639df84633af0800000000000000
+      internalID: -417879771427964348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_24
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 6000
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20de28fb09ab8ea70800000000000000
+      internalID: 8856533798075165954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576acb8d06fec2130800000000000000
+      internalID: 3543470206065878645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_26
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 4800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1f2e3843aeacdd0800000000000000
+      internalID: -2464900334760037931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_27
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 4800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac240cc02038162f0800000000000000
+      internalID: -981359198962957622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_28
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 4800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecef3e211df6f5080800000000000000
+      internalID: -9196508970311483698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_29
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 4800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fd511f80b14dd90800000000000000
+      internalID: -7073999389473775870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83199679d74e4eb80800000000000000
+      internalID: -8366310979685215944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_31
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 3600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce29a7abec7a10a0800000000000000
+      internalID: -6910073326674563379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_32
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 3600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6078fd356d3fc7d0800000000000000
+      internalID: -2896028530335256465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_33
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 3600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a744d4982bebb80800000000000000
+      internalID: -8377061954085946785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_34
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 3600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf1888e86a5dd760800000000000000
+      internalID: 7484237562383966153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516e57d632a243490800000000000000
+      internalID: -7767537125658597867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_36
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd4b740f6f39d50800000000000000
+      internalID: 6743004578959383926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_37
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 2400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318d0ed572391da40800000000000000
+      internalID: 5391252026227218451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_38
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 2400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6dca13550908640800000000000000
+      internalID: 5080219075253950121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_39
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 2400
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52f5136cffe9b450800000000000000
+      internalID: 6105174637150597724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de19e8a0cb4afd00800000000000000
+      internalID: 1007200757510381265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_41
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f25ca4a51c128a0800000000000000
+      internalID: -6331567007560552616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_42
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 1200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac73836c51fd962b0800000000000000
+      internalID: -5590692177790879798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_43
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 1200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257767cb9e0b74400800000000000000
+      internalID: 308409617433917266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_44
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 1200
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2dedcb211cdaf00800000000000000
+      internalID: 1129771367762154204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900d370bfc02a1280800000000000000
+      internalID: -9071902422993743863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_46
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 0
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303396ad009c79f20800000000000000
+      internalID: 3429430646767432451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_47
+      rect:
+        serializedVersion: 2
+        x: 2396
+        y: 0
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2f9e64599741ba0800000000000000
+      internalID: -6119132311642836252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_48
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 0
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cff55cdab58ac70800000000000000
+      internalID: 8982530258689326166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_49
+      rect:
+        serializedVersion: 2
+        x: 4792
+        y: 0
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83650de235eaf4920800000000000000
+      internalID: 2976789551006111288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad47e8c3bdb3e7660800000000000000
+      internalID: 7385406251734037722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_1
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 10800
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19350bff87593960800000000000000
+      internalID: 7582187723558304027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: priest_01_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9600
+        width: 1198
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0974c9dd3bba441d0800000000000000
+      internalID: -3367377832360786032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
