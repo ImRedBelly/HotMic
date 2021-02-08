@@ -13,14 +13,17 @@ public class Answer : MonoBehaviour
 
     private void Start()
     {
+        Vibration.Init();
         startPosisiton = transform.position;
     }
     public void Left()
     {
+        Vibration.Vibrate();
         StartCoroutine(Slide(-Vector2.right));
     }
     public void Right()
     {
+        Vibration.Vibrate();
         StartCoroutine(Slide(Vector2.right));
     }
 

@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
+    
     public Text mainJoke;  // основа шутки
     public GameObject mainJokeObject;
     public SpriteRenderer[] swipeImagesAnswer;  // два ответа шутки 
@@ -49,7 +50,10 @@ public class GameManager : MonoBehaviour
         moneyInt = PlayerPrefs.GetInt(moneyKey);
         UpdateJokes();
     }
-
+    void Update()
+    {
+        
+    }
     void UpdateJokes()
     {
         countJokes = Random.Range(0, jokes.Count);
