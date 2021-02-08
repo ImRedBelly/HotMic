@@ -12,6 +12,7 @@ public class SmileScript : MonoBehaviour
     MoodBar moodBar;
     void Start()
     {
+        Vibration.Init();
         moodBar = FindObjectOfType<MoodBar>();
     }
     void Update()
@@ -25,6 +26,7 @@ public class SmileScript : MonoBehaviour
 
     void DestoySmile()
     {
+        Vibration.Vibrate();
         moodBar.SetPoint(point);
         var smile = Instantiate(spawnSmile, transform.position, Quaternion.identity);
         smile.Play();
