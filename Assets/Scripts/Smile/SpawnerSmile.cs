@@ -13,7 +13,7 @@ public class SpawnerSmile : MonoBehaviour
     {
         while (true)
         {
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(0.65f);
             float posX = Random.Range(-2.0f, 2.0f);
             int randomSmile = Random.Range(0, smile.Length);
             Instantiate(smile[randomSmile], transform.position = new Vector2(posX, -5), Quaternion.identity);

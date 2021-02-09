@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class ResultScreen : MonoBehaviour
 {
     public GameManager game;
-
     void Start()
     {
         if (gameObject.activeSelf == true)

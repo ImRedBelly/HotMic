@@ -6,6 +6,9 @@ public class Pinata : MonoBehaviour
     GameManager gameManager;
     void Start()
     {
+
+
+        Vibration.Init();
         gameManager = FindObjectOfType<GameManager>();
         StartCoroutine(DownPinata());
     }
@@ -34,6 +37,7 @@ public class Pinata : MonoBehaviour
     }
     void OnMouseDown()
     {
-        gameManager.moneyInt++;
+        Vibration.VibratePop();
+        gameManager.moneyForPerformance++;
     }
 }

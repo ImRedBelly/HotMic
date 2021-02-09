@@ -2,39 +2,39 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    
+
     public Text mainJoke;  // основа шутки
     public GameObject mainJokeObject;
     public SpriteRenderer[] swipeImagesAnswer;  // два ответа шутки 
 
     public AudioManager audioManager;
+    public MoodBar moodBar;  // шкала настроения
     public Animator animator;
     public Animator animatorEventJoke;
-    public MoodBar moodBar;  // шкала настроения
+
+    public Text result; // текст о окончании уровня на резалтскрин
 
     public List<Jokes> jokes;  // лист шуток 
     public List<EventJokes> eventJokes;  // лист добивочек (ОДНА НА СЦЕНУ!!!)
 
-    public GameObject[] square;  // анимации при добивках (ПОКА ЧТО ЭТО ПРОСТО КВАРДРАТЫ)
-
-
     public GameObject[] canvasElement;  // это кнопки ответа и шутка
     public GameObject goodSmile;  // спавнер хороших смайлов
     public GameObject badSmile;  // спавнер плохих смайлов
-
     public GameObject pinata;
 
     [Header("Score Setting")]
     public GameObject resultScreen;
     public Text yourScore;
-    
+
 
 
     public static string moneyKey = "Money";  // сохранение денег
     public int moneyInt = 0;
+    public int moneyForPerformance = 0;
 
 
     public int countJokes;
@@ -43,19 +43,36 @@ public class GameManager : MonoBehaviour
 
     public AudioClip woo;
     public AudioClip poo;
+
+
+
+    [Header("Setting Tutor")]
+    public GameObject tutor;
+    public GameObject mainText;
+    public Text swipe;
+    public Text tap;
+
+
+
     void Start()
     {
-        audioManager.audioSource.Play();
+        Vibration.Init();
 
+        audioManager.audioSource.Play();
         moneyInt = PlayerPrefs.GetInt(moneyKey);
+        moneyForPerformance = 0;
+
+
         UpdateJokes();
+
+        Tutor();
     }
-    void Update()
-    {
-        
-    }
+
     void UpdateJokes()
     {
+        tutor.SetActive(false);
+
+
         countJokes = Random.Range(0, jokes.Count);
 
         mainJoke.text = jokes[countJokes].jokeStart;
@@ -104,12 +121,39 @@ public class GameManager : MonoBehaviour
         {
             UpdateEventJokes();
         }
-        else if(eventJokes.Count == 0)
+        else if (eventJokes.Count == 0)
         {
-            OffBonusEfect();
             mainJokeObject.SetActive(false);       // обрати на это внимание
             resultScreen.SetActive(true);
-            yourScore.text = "" + moneyInt;
+
+            SaveMoney();
+
+
+            yourScore.text = "" + moneyForPerformance;
+            Vibration.VibrateNope();
+
+            if (moodBar.slider.value > 7.5f)
+            {
+                result.text = "Perfect";
+                result.color = moodBar.fill.color;
+            }
+            else if (moodBar.slider.value < 7.5f && moodBar.slider.value > 5f)
+            {
+                result.text = "Cool";
+                result.color = moodBar.fill.color;
+            }
+            else if (moodBar.slider.value < 5f && moodBar.slider.value > 2.5f)
+            {
+                result.text = "Good";
+                result.color = moodBar.fill.color;
+            }
+            else if (moodBar.slider.value < 2.5f)
+            {
+                result.text = "Not Bad";
+                result.color = moodBar.fill.color;
+            }
+
+
         }
     }
     public void TrueAnswer()
@@ -117,8 +161,8 @@ public class GameManager : MonoBehaviour
         audioManager.PlaySound(woo);
         trueAnswer++;
 
-        moneyInt += 2;
-        SaveMoney();
+        moneyForPerformance += 2;
+
         StartCoroutine(BonusEfect());
         goodSmile.SetActive(true);
     }
@@ -127,8 +171,8 @@ public class GameManager : MonoBehaviour
         audioManager.PlaySound(poo);
         trueAnswer--;
 
-        moneyInt += 1;
-        SaveMoney();
+        moneyForPerformance += 1;
+
         StartCoroutine(BonusEfect());
         badSmile.SetActive(true);
     }
@@ -159,26 +203,29 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void OffBonusEfect()
-    {
-        for (int i = 0; i < square.Length; i++)
-        {
-            square[i].SetActive(false);
-        }
-    }
-
     public void SpeakJoke()
     {
         animator.SetTrigger("Speak");
     }
     public void SaveMoney()
     {
-        PlayerPrefs.SetInt(moneyKey, moneyInt);
+        PlayerPrefs.SetInt(moneyKey, moneyInt + moneyForPerformance);
     }
 
     public void AnimationEventJoke()
     {
         animatorEventJoke.SetTrigger("SpecialJoke");
+    }
+
+
+
+    public void Tutor()
+    {
+        if (tutor != null && SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            tutor.SetActive(true);
+            swipe.gameObject.SetActive(true);
+        }
     }
 }
 

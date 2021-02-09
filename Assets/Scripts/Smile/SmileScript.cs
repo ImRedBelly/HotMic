@@ -26,7 +26,7 @@ public class SmileScript : MonoBehaviour
 
     void DestoySmile()
     {
-        Vibration.Vibrate();
+        Vibration.VibratePop();
         moodBar.SetPoint(point);
         var smile = Instantiate(spawnSmile, transform.position, Quaternion.identity);
         smile.Play();

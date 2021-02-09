@@ -60,6 +60,11 @@ public class Answer : MonoBehaviour
             }
 
             gameManager.jokes.RemoveAt(gameManager.countJokes);
+
+
+            gameManager.swipe.gameObject.SetActive(false);
+            gameManager.tap.gameObject.SetActive(true);
+
             transform.position = startPosisiton;
         }
         else
