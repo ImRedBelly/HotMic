@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnSmile: {fileID: 2586016236046840081}
-  point: -1
+  point: 0
   speed: 2
 --- !u!58 &5020446657858665486
 CircleCollider2D:

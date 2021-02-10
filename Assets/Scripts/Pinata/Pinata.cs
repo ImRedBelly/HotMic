@@ -6,10 +6,10 @@ public class Pinata : MonoBehaviour
     GameManager gameManager;
     void Start()
     {
-
-
         Vibration.Init();
         gameManager = FindObjectOfType<GameManager>();
+
+
         StartCoroutine(DownPinata());
     }
     void Update()
@@ -33,6 +33,8 @@ public class Pinata : MonoBehaviour
         yield return new WaitForSeconds(5);
 
         gameManager.WorkCanvacElement(true);
+        gameManager.tutorPinata.SetActive(false);
+        gameManager.mainJokeObject.SetActive(true);
         Destroy(gameObject);
     }
     void OnMouseDown()

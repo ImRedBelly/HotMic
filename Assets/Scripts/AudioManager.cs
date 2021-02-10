@@ -8,4 +8,9 @@ public class AudioManager : MonoBehaviour
     {
         audioSource.PlayOneShot(audioClip);
     }
+
+    public void Mute()
+    {
+        audioSource.mute = !audioSource.mute;
+    }
 }

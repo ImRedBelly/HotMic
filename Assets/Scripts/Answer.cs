@@ -39,7 +39,7 @@ public class Answer : MonoBehaviour
             time += Time.deltaTime;
             transform.Translate(right * 20 * Time.deltaTime);
         }
-        
+
         UpdateAnswer();
     }
 
@@ -50,20 +50,22 @@ public class Answer : MonoBehaviour
 
             if (answerNumber == gameManager.jokes[gameManager.countJokes].trueAnswer)
             {
-                gameManager.mainJoke.text = gameManager.jokes[gameManager.countJokes].jokeFinish[answerNumber];
+                gameManager.mainJoke.text = gameManager.jokes[gameManager.countJokes].jokeStart + " " + gameManager.jokes[gameManager.countJokes].jokeFinish[answerNumber];
                 gameManager.TrueAnswer();
             }
             else
             {
-                gameManager.mainJoke.text = gameManager.jokes[gameManager.countJokes].jokeFinish[answerNumber];
+                gameManager.mainJoke.text = gameManager.jokes[gameManager.countJokes].jokeStart + " " + gameManager.jokes[gameManager.countJokes].jokeFinish[answerNumber];
                 gameManager.FalseAnswer();
             }
 
             gameManager.jokes.RemoveAt(gameManager.countJokes);
 
-
-            gameManager.swipe.gameObject.SetActive(false);
-            gameManager.tap.gameObject.SetActive(true);
+            if (gameManager.tutor != null)
+            {
+                gameManager.swipe.gameObject.SetActive(false);
+                gameManager.tap.gameObject.SetActive(true);
+            }
 
             transform.position = startPosisiton;
         }

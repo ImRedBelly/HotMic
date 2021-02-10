@@ -12,6 +12,7 @@ TagManager:
   - Red
   - Green
   - Target
+  - PinataTutor
   layers:
   - Default
   - TransparentFX

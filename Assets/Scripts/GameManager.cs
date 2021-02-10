@@ -24,7 +24,6 @@ public class GameManager : MonoBehaviour
     public GameObject[] canvasElement;  // это кнопки ответа и шутка
     public GameObject goodSmile;  // спавнер хороших смайлов
     public GameObject badSmile;  // спавнер плохих смайлов
-    public GameObject pinata;
 
     [Header("Score Setting")]
     public GameObject resultScreen;
@@ -52,6 +51,9 @@ public class GameManager : MonoBehaviour
     public Text swipe;
     public Text tap;
 
+    [Header("Setting Pinata")]
+    public GameObject pinata;
+    public GameObject tutorPinata;
 
 
     void Start()
@@ -70,7 +72,8 @@ public class GameManager : MonoBehaviour
 
     void UpdateJokes()
     {
-        tutor.SetActive(false);
+        if (tutor != null)
+            tutor.SetActive(false);
 
 
         countJokes = Random.Range(0, jokes.Count);
@@ -114,6 +117,8 @@ public class GameManager : MonoBehaviour
             if (trueAnswer == 2)    // это число правильных ответов, после которых пояляется пиньята
             {
                 Instantiate(pinata);
+                tutorPinata.SetActive(true);
+                mainJokeObject.SetActive(false);
                 trueAnswer = 0;
             }
         }
@@ -128,6 +133,11 @@ public class GameManager : MonoBehaviour
 
             SaveMoney();
 
+            if(tutor != null)
+            {
+                print(" im save");
+                TutorManager.instance.SaveExperience(1);
+            }
 
             yourScore.text = "" + moneyForPerformance;
             Vibration.VibrateNope();
