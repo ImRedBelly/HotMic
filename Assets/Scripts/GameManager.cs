@@ -77,7 +77,7 @@ public class GameManager : MonoBehaviour
     {
         if (tutor != null)
             tutor.SetActive(false);
-        audioManager.PlaySound(PlayerSpeak);
+
 
         countJokes = Random.Range(0, jokes.Count);
 
@@ -145,6 +145,8 @@ public class GameManager : MonoBehaviour
             {
                 print(" im save");
                 TutorManager.instance.SaveExperience(1);
+
+                tutor.SetActive(false);
             }
 
             yourScore.text = "" + moneyForPerformance;
@@ -225,6 +227,8 @@ public class GameManager : MonoBehaviour
 
     public void SpeakGoodJoke()
     {
+
+        audioManager.PlaySound(PlayerSpeak);
         animator.SetTrigger("Speak");
     }
     public void SpeakBadJoke()
