@@ -30,7 +30,7 @@ public class Answer : MonoBehaviour
 
     IEnumerator Slide(Vector2 right)
     {
-        gameManager.SpeakJoke();
+
 
         float time = 0;
         while (time < 0.3f)
@@ -45,6 +45,7 @@ public class Answer : MonoBehaviour
 
     void UpdateAnswer()
     {
+
         if (gameManager.jokes.Count > 0)
         {
 
@@ -52,11 +53,13 @@ public class Answer : MonoBehaviour
             {
                 gameManager.mainJoke.text = gameManager.jokes[gameManager.countJokes].jokeStart + " " + gameManager.jokes[gameManager.countJokes].jokeFinish[answerNumber];
                 gameManager.TrueAnswer();
+                gameManager.SpeakGoodJoke();
             }
             else
             {
                 gameManager.mainJoke.text = gameManager.jokes[gameManager.countJokes].jokeStart + " " + gameManager.jokes[gameManager.countJokes].jokeFinish[answerNumber];
                 gameManager.FalseAnswer();
+                gameManager.SpeakBadJoke();
             }
 
             gameManager.jokes.RemoveAt(gameManager.countJokes);
@@ -73,11 +76,15 @@ public class Answer : MonoBehaviour
         {
             if (answerNumber == gameManager.eventJokes[0].trueAnswer)
             {
+                gameManager.SoundPriest();
+                gameManager.mainJoke.text = gameManager.eventJokes[0].jokeStart + " " + gameManager.eventJokes[0].jokeFinal;
                 gameManager.AnimationEventJoke();
                 gameManager.FinalyBonus();
             }
             else
             {
+                gameManager.SoundPriest();
+                gameManager.mainJoke.text = gameManager.eventJokes[0].jokeStart + " " + gameManager.eventJokes[0].jokeFinal;
                 gameManager.AnimationEventJoke();
                 gameManager.FinalyBonus();
             }
@@ -85,6 +92,10 @@ public class Answer : MonoBehaviour
             transform.position = startPosisiton;
         }
     }
+    
+
+
+
 }
 
 

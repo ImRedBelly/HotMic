@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
   m_Name: Jokes_4
   m_EditorClassIdentifier: 
-  jokeStart: "\u041D\u0430\u0447\u0430\u043B\u043E \u0448\u0443\u0442\u043A\u0438
-    4"
+  jokeStart: "What's Forrest Gump\u2019s password?"
   jokeFinish:
-  - "\u0445\u043E\u0440\u043E\u0448\u0438\u0439 \u043E\u0442\u0432\u0435\u0442"
+  - '1forrest1 '
   - hmmm....ahhh...oh...
   answerJokes:
-  - {fileID: 21300000, guid: cae80e3bd6f4fbf48917a1f206854711, type: 3}
-  - {fileID: 21300000, guid: c32afc859750af9469abdc7ec2a1880b, type: 3}
+  - {fileID: 21300000, guid: ea9efe03a4ff29348abaf17d4ed6d40c, type: 3}
+  - {fileID: 21300000, guid: b02e2cad4242b40429e024e463f56ecb, type: 3}
   trueAnswer: 0

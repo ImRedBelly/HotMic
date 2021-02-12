@@ -5,9 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class EatHotDog : MonoBehaviour
 {
+    public AudioManager audioManager;
     public Sprite[] allHotDogs;
     public Image hotDog;
     int countHotDog;
+    public AudioClip eat;
     void Start()
     {
         countHotDog = allHotDogs.Length;
@@ -20,6 +22,7 @@ public class EatHotDog : MonoBehaviour
         {
             if (EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId) && countHotDog > 0)
             {
+                audioManager.PlaySound(eat);
                 hotDog.sprite = allHotDogs[countHotDog - 1];
                 countHotDog--;
             }

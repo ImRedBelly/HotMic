@@ -22,32 +22,29 @@ EditorBuildSettings:
     guid: aa64db63659c0a441bd4e79aca9311c3
   - enabled: 1
     path: Assets/Scenes/Level_2.unity
-    guid: c3c107b0f4a83b0439db305b0b9ee76a
-  - enabled: 1
-    path: Assets/Scenes/Level_3.unity
-    guid: 7e0839071b0dd0544a2c3c1fa379688c
+    guid: bfb391f7bc44d2249a598b42a703e66b
   - enabled: 1
     path: Assets/Scenes/MiniGame_1.unity
     guid: e79a1fabd2a21794cbefd8598a71f194
   - enabled: 1
-    path: Assets/Scenes/Level_4.unity
-    guid: 09cbe0f2b12be6441b3c442f4f968d25
+    path: Assets/Scenes/Level_3.unity
+    guid: 7b9a76f5b8216ac429a46e3d08122149
   - enabled: 1
     path: Assets/Scenes/MiniGame_2.unity
     guid: 734da91a74aea0846a97fee87fc657c9
   - enabled: 1
-    path: Assets/Scenes/Level_5.unity
-    guid: 6cf51bfe61be3e3438fe40403b1be684
+    path: Assets/Scenes/Level_4.unity
+    guid: f995b1bf855a41d4c90a6556aac77723
   - enabled: 1
     path: Assets/Scenes/MiniGame_3.unity
     guid: ffdbdf636ba40694598373c2319af238
   - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: 9339a101d9b4a4741a6d82325e572cd8
+  - enabled: 1
     path: Assets/Scenes/Level_6.unity
-    guid: 90fc3102a3772fd47af2661416f6bf33
+    guid: 32d245d2fa0f853429106271a82e8b37
   - enabled: 1
     path: Assets/Scenes/Level_7.unity
-    guid: 93ddb875096b06a42bf7b2106cf59268
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    guid: b5d842952bf10544dbb002aa20a14e2a
   m_configObjects: {}

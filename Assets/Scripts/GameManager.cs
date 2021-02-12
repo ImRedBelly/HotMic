@@ -42,6 +42,9 @@ public class GameManager : MonoBehaviour
 
     public AudioClip woo;
     public AudioClip poo;
+    public AudioClip bravo;
+    public AudioClip priest;
+    public AudioClip PlayerSpeak;
 
 
 
@@ -74,7 +77,7 @@ public class GameManager : MonoBehaviour
     {
         if (tutor != null)
             tutor.SetActive(false);
-
+        audioManager.PlaySound(PlayerSpeak);
 
         countJokes = Random.Range(0, jokes.Count);
 
@@ -85,9 +88,11 @@ public class GameManager : MonoBehaviour
 
     void UpdateEventJokes()
     {
+        audioManager.PlaySound(PlayerSpeak);
         mainJoke.text = eventJokes[0].jokeStart;
         swipeImagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
         swipeImagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
+        
     }
 
 
@@ -110,6 +115,9 @@ public class GameManager : MonoBehaviour
         SpawnerSmile(false);
         WorkCanvacElement(true);
 
+       
+
+
         if (jokes.Count > 0)
         {
             UpdateJokes();
@@ -130,10 +138,10 @@ public class GameManager : MonoBehaviour
         {
             mainJokeObject.SetActive(false);       // обрати на это внимание
             resultScreen.SetActive(true);
-
+            audioManager.PlaySound(bravo);
             SaveMoney();
 
-            if(tutor != null)
+            if (tutor != null)
             {
                 print(" im save");
                 TutorManager.instance.SaveExperience(1);
@@ -166,6 +174,8 @@ public class GameManager : MonoBehaviour
 
         }
     }
+
+   
     public void TrueAnswer()
     {
         audioManager.PlaySound(woo);
@@ -213,9 +223,13 @@ public class GameManager : MonoBehaviour
     }
 
 
-    public void SpeakJoke()
+    public void SpeakGoodJoke()
     {
         animator.SetTrigger("Speak");
+    }
+    public void SpeakBadJoke()
+    {
+        animator.SetTrigger("SadAnswer");
     }
     public void SaveMoney()
     {
@@ -236,6 +250,18 @@ public class GameManager : MonoBehaviour
             tutor.SetActive(true);
             swipe.gameObject.SetActive(true);
         }
+    }
+
+
+    public void SoundPriest()
+    {
+        StartCoroutine(Priest());
+    }
+    IEnumerator Priest()
+    {
+
+        yield return new WaitForSeconds(1.3f);
+        audioManager.PlaySound(priest);
     }
 }
 

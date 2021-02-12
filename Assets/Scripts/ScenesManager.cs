@@ -21,10 +21,15 @@ public class ScenesManager : MonoBehaviour
     }
     public void SceneLoad(int index)
     {
-        SceneManager.LoadScene(index);
+        SceneTransition.SwitchToScene(index);
     }
     public void Restart() // загружает активную сцену
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Load(int index)
+    {
+        SceneManager.LoadScene(index);
     }
 }

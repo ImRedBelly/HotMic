@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28e47390b9643d64b8f15a27a67e58aa, type: 3}
   m_Name: EventJokes_1
   m_EditorClassIdentifier: 
-  jokeStart: "\u0428\u0443\u0447\u0443 \u043F\u0440\u043E \u0441\u0432\u044F\u0449\u0435\u043D\u0438\u043A\u0430!"
+  jokeStart: What is the size of the preachers bad?
+  jokeFinal: Baby size.
   answerJokes:
-  - {fileID: 21300000, guid: aecaae65879cbe643a3ee2623a853989, type: 3}
-  - {fileID: 21300000, guid: c5e6d0a73eeda4d45b968dee69b77809, type: 3}
+  - {fileID: 21300000, guid: 34740271706eb654d9265555118f09a4, type: 3}
+  - {fileID: 21300000, guid: a007886fa1cfe72438bbf3613a2b0339, type: 3}
   trueAnswer: 1

@@ -12,12 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
   m_Name: Jokes_1
   m_EditorClassIdentifier: 
-  jokeStart: "\u041D\u0430\u0447\u0430\u043B\u043E \u0448\u0443\u0442\u043A\u0438
-    1"
+  jokeStart: "How do you count cows?\r"
   jokeFinish:
-  - "\u0445\u043E\u0440\u043E\u0448\u0438\u0439 \u043E\u0442\u0432\u0435\u0442"
+  - With a cowculator.
   - hmmm....ahhh...oh...
   answerJokes:
-  - {fileID: 21300000, guid: 504dd9fe18e3b3a458f5ed4e99a8e929, type: 3}
+  - {fileID: 21300000, guid: f36ef9318fe90df4c912669a4a43fa17, type: 3}
   - {fileID: 21300000, guid: 3862fd46f8de8e841b9d1ebcf72f7bcc, type: 3}
   trueAnswer: 0
