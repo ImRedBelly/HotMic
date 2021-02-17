@@ -76,6 +76,7 @@ public class Answer : MonoBehaviour
         {
             if (answerNumber == gameManager.eventJokes[0].trueAnswer)
             {
+                gameManager.SpeakGoodJoke();
                 gameManager.SoundPriest();
                 gameManager.mainJoke.text = gameManager.eventJokes[0].jokeStart + " " + gameManager.eventJokes[0].jokeFinal;
                 gameManager.AnimationEventJoke();
@@ -83,6 +84,7 @@ public class Answer : MonoBehaviour
             }
             else
             {
+                gameManager.SpeakGoodJoke();
                 gameManager.SoundPriest();
                 gameManager.mainJoke.text = gameManager.eventJokes[0].jokeStart + " " + gameManager.eventJokes[0].jokeFinal;
                 gameManager.AnimationEventJoke();

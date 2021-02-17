@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1432015644482189905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1432015644482189904}
+  - component: {fileID: 1432015644482189919}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1432015644482189904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432015644482189905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.9060132, y: -2.20268, z: -0.3975593}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1432015644482189919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432015644482189905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7c5b2b07f8eb8459de4e09107e6e8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainJoke: {fileID: 0}
+  mainJokeObject: {fileID: 0}
+  swipeImagesAnswer:
+  - {fileID: 0}
+  - {fileID: 0}
+  audioManager: {fileID: 0}
+  moodBar: {fileID: 0}
+  animator: {fileID: 0}
+  animatorEventJoke: {fileID: 0}
+  result: {fileID: 0}
+  jokes:
+  - {fileID: 11400000, guid: 288096bfa63882f42b4453d705d898d4, type: 2}
+  - {fileID: 11400000, guid: 9adeb6a8bee45ad4a84d7006bf74ebb3, type: 2}
+  - {fileID: 11400000, guid: 620ef3b3d7e0a6c4b9a644e093cb6970, type: 2}
+  - {fileID: 11400000, guid: 1796fbee2d7fd8344b9dc10026d20f3f, type: 2}
+  eventJokes:
+  - {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882, type: 2}
+  canvasElement:
+  - {fileID: 0}
+  - {fileID: 0}
+  goodSmile: {fileID: 0}
+  badSmile: {fileID: 0}
+  resultScreen: {fileID: 0}
+  yourScore: {fileID: 0}
+  moneyInt: 0
+  moneyForPerformance: 0
+  countJokes: 0
+  trueAnswer: 0
+  woo: {fileID: 8300000, guid: e036ba3ebdf2e5e43a26e088cc56d861, type: 3}
+  poo: {fileID: 8300000, guid: 4b122b8f3a18af74ba803af0ece90070, type: 3}
+  bravo: {fileID: 8300000, guid: 7f7de7f88e20b4c42a5a60d7fb6d6c47, type: 3}
+  priest: {fileID: 8300000, guid: a8278036553084147a660f5afd4e479a, type: 3}
+  goodAnswer:
+  - {fileID: 8300000, guid: 621dae5c1a735ae418938dc9f5f7ac6a, type: 3}
+  - {fileID: 8300000, guid: 0a45ccbd7e2f6fc4fbfd6e9c1cca9294, type: 3}
+  - {fileID: 8300000, guid: b200e321c38e2f34db660cd349606924, type: 3}
+  badAnswer:
+  - {fileID: 8300000, guid: a799de2fb9e4cd341881ad17cc9318c8, type: 3}
+  - {fileID: 8300000, guid: c50e7fc03385cea469730a7a2ce9f315, type: 3}
+  - {fileID: 8300000, guid: 1ed8a9029b8f8e54e9094731e84cb18d, type: 3}
+  tutor: {fileID: 0}
+  mainText: {fileID: 0}
+  swipe: {fileID: 0}
+  tap: {fileID: 0}
+  pinata: {fileID: 6900378321531357343, guid: c3aaed0839df4e249aa81f5359ec8171, type: 3}
+  tutorPinata: {fileID: 0}

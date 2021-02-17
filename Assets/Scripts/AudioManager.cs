@@ -3,6 +3,7 @@
 public class AudioManager : MonoBehaviour
 {
     public AudioSource audioSource;
+    bool isMuted = false;
 
     public void PlaySound(AudioClip audioClip)
     {
@@ -11,6 +12,15 @@ public class AudioManager : MonoBehaviour
 
     public void Mute()
     {
-        audioSource.mute = !audioSource.mute;
+        isMuted = !isMuted;
+
+        if (isMuted)
+        {
+            AudioListener.volume = 0;
+        }
+        else
+        {
+            AudioListener.volume = 1;
+        }
     }
 }

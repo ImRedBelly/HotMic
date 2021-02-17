@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class SmileScript : MonoBehaviour
 {
+    public AudioSource audioSource;
     public ParticleSystem spawnSmile;
     public int point;
     public int speed = 3;
@@ -27,6 +28,7 @@ public class SmileScript : MonoBehaviour
     void DestoySmile()
     {
         Vibration.VibratePop();
+        audioSource.Play();
         moodBar.SetPoint(point);
         var smile = Instantiate(spawnSmile, transform.position, Quaternion.identity);
         smile.Play();

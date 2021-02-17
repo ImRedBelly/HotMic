@@ -44,7 +44,8 @@ public class GameManager : MonoBehaviour
     public AudioClip poo;
     public AudioClip bravo;
     public AudioClip priest;
-    public AudioClip PlayerSpeak;
+    public AudioClip[] goodAnswer;
+    public AudioClip[] badAnswer;
 
 
 
@@ -88,11 +89,9 @@ public class GameManager : MonoBehaviour
 
     void UpdateEventJokes()
     {
-        audioManager.PlaySound(PlayerSpeak);
         mainJoke.text = eventJokes[0].jokeStart;
         swipeImagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
         swipeImagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
-        
     }
 
 
@@ -227,12 +226,12 @@ public class GameManager : MonoBehaviour
 
     public void SpeakGoodJoke()
     {
-
-        audioManager.PlaySound(PlayerSpeak);
+        audioManager.PlaySound(goodAnswer[Random.Range(0, goodAnswer.Length)]);
         animator.SetTrigger("Speak");
     }
     public void SpeakBadJoke()
     {
+        audioManager.PlaySound(badAnswer[Random.Range(0, badAnswer.Length)]);
         animator.SetTrigger("SadAnswer");
     }
     public void SaveMoney()
