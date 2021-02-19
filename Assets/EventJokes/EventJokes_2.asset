@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e47390b9643d64b8f15a27a67e58aa, type: 3}
+  m_Name: EventJokes_2
+  m_EditorClassIdentifier: 
+  jokeStart: Why couldn't the blonde add 10 + 5 on a calculator?
+  jokeFinal: She couldn't find the "10" button.
+  answerJokes:
+  - {fileID: 21300000, guid: 9af0f4382b5ac584cba496e95e69b0de, type: 3}
+  - {fileID: 21300000, guid: d7f84d62f3c4319449c7475984ee3679, type: 3}
+  trueAnswer: 1

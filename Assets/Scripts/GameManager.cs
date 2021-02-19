@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public List<int> IndexScene = new List<int> { 4, 5, 6, 8, 10, 12, 13 };
+
 
     public Text mainJoke;  // основа шутки
     public GameObject mainJokeObject;
-    public SpriteRenderer[] swipeImagesAnswer;  // два ответа шутки 
+    public Image[] imagesAnswer;  // два ответа шутки 
 
     public AudioManager audioManager;
     public MoodBar moodBar;  // шкала настроения
@@ -83,16 +85,68 @@ public class GameManager : MonoBehaviour
         countJokes = Random.Range(0, jokes.Count);
 
         mainJoke.text = jokes[countJokes].jokeStart;
-        swipeImagesAnswer[0].sprite = jokes[countJokes].answerJokes[0];
-        swipeImagesAnswer[1].sprite = jokes[countJokes].answerJokes[1];
+
+        imagesAnswer[0].sprite = jokes[countJokes].answerJokes[0];
+        imagesAnswer[1].sprite = jokes[countJokes].answerJokes[1];
     }
 
     void UpdateEventJokes()
     {
         mainJoke.text = eventJokes[0].jokeStart;
-        swipeImagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
-        swipeImagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
+        imagesAnswer[0].sprite = eventJokes[0].answerJokes[0];
+        imagesAnswer[1].sprite = eventJokes[0].answerJokes[1];
     }
+
+
+    public void Button(int numerAnswer)
+    {
+        Vibration.Vibrate();
+
+        if (jokes.Count > 0)
+        {
+            if (numerAnswer == jokes[countJokes].trueAnswer)
+            {
+                mainJoke.text = jokes[countJokes].jokeStart + " " + jokes[countJokes].jokeFinish[numerAnswer];
+                TrueAnswer();
+                SpeakGoodJoke();
+            }
+            else
+            {
+                mainJoke.text = jokes[countJokes].jokeStart + " " + jokes[countJokes].jokeFinish[numerAnswer];
+                FalseAnswer();
+                SpeakBadJoke();
+            }
+
+            jokes.RemoveAt(countJokes);
+
+            if (tutor != null)
+            {
+                swipe.gameObject.SetActive(false);
+                tap.gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            if (numerAnswer == eventJokes[0].trueAnswer)
+            {
+                SpeakGoodJoke();
+                SoundPriest();
+                mainJoke.text = eventJokes[0].jokeStart + " " + eventJokes[0].jokeFinal;
+                AnimationEventJoke();
+                FinalyBonus();
+            }
+            else
+            {
+                SpeakGoodJoke();
+                SoundPriest();
+                mainJoke.text = eventJokes[0].jokeStart + " " + eventJokes[0].jokeFinal;
+                AnimationEventJoke();
+                FinalyBonus();
+            }
+            eventJokes.RemoveAt(0);
+        }
+    }
+
 
 
 
@@ -114,7 +168,7 @@ public class GameManager : MonoBehaviour
         SpawnerSmile(false);
         WorkCanvacElement(true);
 
-       
+
 
 
         if (jokes.Count > 0)
@@ -176,7 +230,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-   
+
+    public void EndGame()
+    {
+        var index = Random.Range(0, IndexScene.Count);
+        SceneManager.LoadScene(IndexScene[index]);
+        IndexScene.RemoveAt(index);
+        if(IndexScene.Count <= 0)
+        {
+            IndexScene = new List<int> { 4, 5, 6, 8, 10, 12, 13 };
+        }
+    }
+
     public void TrueAnswer()
     {
         audioManager.PlaySound(woo);

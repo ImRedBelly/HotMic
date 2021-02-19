@@ -11,6 +11,7 @@ public class Jokes : ScriptableObject
     public string[] jokeFinish;
 
     public Sprite[] answerJokes;
+
     public int trueAnswer;
 
 
