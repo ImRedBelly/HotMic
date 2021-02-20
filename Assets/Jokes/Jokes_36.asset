@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
+  m_Name: Jokes_36
+  m_EditorClassIdentifier: 
+  jokeStart: 'I''m reading a book on the history of glue. A. I just can''t seem to '
+  jokeFinish:
+  - hmmm....ahhh...oh...
+  - put it down
+  answerJokes:
+  - {fileID: 21300000, guid: c24be37573769a24dbe4ade50299e445, type: 3}
+  - {fileID: 21300000, guid: be7e4328eb934b84d9e8b801cc3a7d7b, type: 3}
+  trueAnswer: 1

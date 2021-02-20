@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
+  m_Name: Jokes_39
+  m_EditorClassIdentifier: 
+  jokeStart: I'll call you later. Don't call me later, call me
+  jokeFinish:
+  - Dad.
+  - hmmm....ahhh...oh...
+  answerJokes:
+  - {fileID: 21300000, guid: 60a1939314450d144bf0b20f6174064f, type: 3}
+  - {fileID: 21300000, guid: 438add120608df945b2e43dfb8f2e709, type: 3}
+  trueAnswer: 0

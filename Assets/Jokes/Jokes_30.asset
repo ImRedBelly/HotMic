@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f963f612aebb889479fd9651c77ad765, type: 3}
+  m_Name: Jokes_30
+  m_EditorClassIdentifier: 
+  jokeStart: 'Is the chemical symbol for holy water '
+  jokeFinish:
+  - hmmm....ahhh...oh...
+  - H2Omg
+  answerJokes:
+  - {fileID: 21300000, guid: efa02c479c7542044939322ffb8240bf, type: 3}
+  - {fileID: 21300000, guid: f0fd3561495aa5849afa38a97fa68a2a, type: 3}
+  trueAnswer: 1

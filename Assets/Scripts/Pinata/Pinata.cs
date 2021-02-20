@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Pinata : MonoBehaviour
 {
+    public Animator animator;
     GameManager gameManager;
     void Start()
     {
@@ -40,6 +41,7 @@ public class Pinata : MonoBehaviour
     void OnMouseDown()
     {
         Vibration.VibratePop();
+        animator.SetTrigger("Tap");
         gameManager.moneyForPerformance++;
     }
 }

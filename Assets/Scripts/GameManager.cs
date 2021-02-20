@@ -6,9 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public List<int> IndexScene = new List<int> { 4, 5, 6, 8, 10, 12, 13 };
-
-
     public Text mainJoke;  // основа шутки
     public GameObject mainJokeObject;
     public Image[] imagesAnswer;  // два ответа шутки 
@@ -62,8 +59,10 @@ public class GameManager : MonoBehaviour
     public GameObject tutorPinata;
 
 
+
     void Start()
     {
+
         Vibration.Init();
 
         audioManager.audioSource.Play();
@@ -233,12 +232,12 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
     {
-        var index = Random.Range(0, IndexScene.Count);
-        SceneManager.LoadScene(IndexScene[index]);
-        IndexScene.RemoveAt(index);
-        if(IndexScene.Count <= 0)
+        var index = Random.Range(0, CounerScenes.instance.IndexScene.Count);
+        SceneManager.LoadScene(CounerScenes.instance.IndexScene[index]);
+        CounerScenes.instance.IndexScene.RemoveAt(index);
+        if (CounerScenes.instance.IndexScene.Count <= 0)
         {
-            IndexScene = new List<int> { 4, 5, 6, 8, 10, 12, 13 };
+            CounerScenes.instance.ResetIndexScene();
         }
     }
 
@@ -313,7 +312,7 @@ public class GameManager : MonoBehaviour
 
     public void Tutor()
     {
-        if (tutor != null && SceneManager.GetActiveScene().buildIndex == 3)
+        if (tutor != null && SceneManager.GetActiveScene().buildIndex == 1)
         {
             tutor.SetActive(true);
             swipe.gameObject.SetActive(true);

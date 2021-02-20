@@ -12,11 +12,11 @@ public class ScenesManager : MonoBehaviour
     {
         if(tutorInteger == 0)
         {
-            SceneManager.LoadScene(3);
+            SceneManager.LoadScene(1);
         }
         if(tutorInteger == 1)
         {
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
     }
     public void SceneLoad(int index)

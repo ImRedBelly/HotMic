@@ -43,9 +43,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e7c5b2b07f8eb8459de4e09107e6e8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IndexScene: 02000000030000000400000006000000080000000a0000000b0000000c0000000e00000010000000120000001300000014000000
   mainJoke: {fileID: 0}
   mainJokeObject: {fileID: 0}
-  swipeImagesAnswer:
+  imagesAnswer:
   - {fileID: 0}
   - {fileID: 0}
   audioManager: {fileID: 0}

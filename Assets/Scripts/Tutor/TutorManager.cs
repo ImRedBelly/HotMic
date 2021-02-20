@@ -11,7 +11,7 @@ public class TutorManager : MonoBehaviour
 
     private void Start()
     {
-       // Delet();
+        Delet();
         if (instance == null)
             instance = this;
 

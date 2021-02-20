@@ -3018,6 +3018,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682395803}
   m_CullTransparentMesh: 0
+--- !u!1 &1772535880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1772535882}
+  - component: {fileID: 1772535881}
+  m_Layer: 0
+  m_Name: ConterScenes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1772535881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772535880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9e6386ffde72147af7d256db5d08a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IndexScene: 02000000030000000400000006000000080000000a0000000b0000000c0000000e00000010000000120000001300000014000000
+--- !u!4 &1772535882
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1772535880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3222556, y: -0.58103025, z: -10.164514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842094782
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,12 +3796,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
         type: 3}
-      propertyPath: imagesAnswer.Array.size
-      value: 2
+      propertyPath: jokes.Array.size
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
         type: 3}
-      propertyPath: jokes.Array.size
+      propertyPath: eventJokes.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
@@ -3850,6 +3894,84 @@ PrefabInstance:
       propertyPath: imagesAnswer.Array.data[1]
       value: 
       objectReference: {fileID: 1460726972}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: jokes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 288096bfa63882f42b4453d705d898d4,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: jokes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 9adeb6a8bee45ad4a84d7006bf74ebb3,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: jokes.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 620ef3b3d7e0a6c4b9a644e093cb6970,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: jokes.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1796fbee2d7fd8344b9dc10026d20f3f,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: eventJokes.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e8062a7efbec742a21e49c2c946e6d, type: 3}
 --- !u!1001 &2895704666708279768
@@ -3859,10 +3981,20 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2895704665865052197, guid: f2b67777ce87b104497e02b78756032b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -779
+      objectReference: {fileID: 0}
     - target: {fileID: 2895704666787949211, guid: f2b67777ce87b104497e02b78756032b,
         type: 3}
       propertyPath: m_Name
       value: PinataBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 2895704666787949211, guid: f2b67777ce87b104497e02b78756032b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2895704666787949213, guid: f2b67777ce87b104497e02b78756032b,
         type: 3}
