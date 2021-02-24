@@ -439,6 +439,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &92372065
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1384633641988006, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_Name
+      value: TinySauce
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464613669252742, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0b960778462d34f7283156e4edafb7a2, type: 3}
 --- !u!95 &117455357 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 8278043300151389024, guid: e525cbb44fb024d4799d427916fb6a68,
@@ -3972,6 +4029,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: d32adb9c360d170499f836724caf9882,
         type: 2}
+    - target: {fileID: 1432015644482189919, guid: e0e8062a7efbec742a21e49c2c946e6d,
+        type: 3}
+      propertyPath: nameScene
+      value: Level 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e8062a7efbec742a21e49c2c946e6d, type: 3}
 --- !u!1001 &2895704666708279768

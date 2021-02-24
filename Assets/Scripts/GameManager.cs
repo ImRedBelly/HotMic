@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public string nameScene;
+
     public Text mainJoke;  // основа шутки
     public GameObject mainJokeObject;
     public Image[] imagesAnswer;  // два ответа шутки 
@@ -62,7 +64,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-
+        TinySauce.OnGameStarted(nameScene);
         Vibration.Init();
 
         audioManager.audioSource.Play();
@@ -225,6 +227,7 @@ public class GameManager : MonoBehaviour
                 result.color = moodBar.fill.color;
             }
 
+            TinySauce.OnGameFinished(nameScene, moneyForPerformance);
 
         }
     }

@@ -1,0 +1,1580 @@
+fileFormatVersion: 2
+guid: eb4c8198c4efebb4e86cc2fe3a962eaa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3270908013271387877
+    second: polit_01_0
+  - first:
+      213: 3911399740593482744
+    second: polit_01_1
+  - first:
+      213: -199965611380872426
+    second: polit_01_2
+  - first:
+      213: 1347975817577612645
+    second: polit_01_3
+  - first:
+      213: -7848717057614894249
+    second: polit_01_4
+  - first:
+      213: 8643814857927730740
+    second: polit_01_5
+  - first:
+      213: -7569823670627041724
+    second: polit_01_6
+  - first:
+      213: 2219778371132601506
+    second: polit_01_7
+  - first:
+      213: -1508651483911922014
+    second: polit_01_8
+  - first:
+      213: -1491756792475030974
+    second: polit_01_9
+  - first:
+      213: 5036150260098618274
+    second: polit_01_10
+  - first:
+      213: 6124209935259854815
+    second: polit_01_11
+  - first:
+      213: -9139798347121829259
+    second: polit_01_12
+  - first:
+      213: -2989172603568388339
+    second: polit_01_13
+  - first:
+      213: 2111189103398605924
+    second: polit_01_14
+  - first:
+      213: 5698291919254767727
+    second: polit_01_15
+  - first:
+      213: 1982135491678102045
+    second: polit_01_16
+  - first:
+      213: -6022847724805414338
+    second: polit_01_17
+  - first:
+      213: -8642266088661312601
+    second: polit_01_18
+  - first:
+      213: 647008727891961933
+    second: polit_01_19
+  - first:
+      213: 4010544608386319115
+    second: polit_01_20
+  - first:
+      213: 5539519190752903460
+    second: polit_01_21
+  - first:
+      213: -2447379101129259358
+    second: polit_01_22
+  - first:
+      213: -468279486300135734
+    second: polit_01_23
+  - first:
+      213: 8469218510192169365
+    second: polit_01_24
+  - first:
+      213: -7801407706486869190
+    second: polit_01_25
+  - first:
+      213: -8710379271769968244
+    second: polit_01_26
+  - first:
+      213: 585712655783084944
+    second: polit_01_27
+  - first:
+      213: -3084713260197784013
+    second: polit_01_28
+  - first:
+      213: -7064382046629537373
+    second: polit_01_29
+  - first:
+      213: 6042861157560682106
+    second: polit_01_30
+  - first:
+      213: -8623045085548766594
+    second: polit_01_31
+  - first:
+      213: 3094937904618994554
+    second: polit_01_32
+  - first:
+      213: 2851475420031035226
+    second: polit_01_33
+  - first:
+      213: -7327166428722459009
+    second: polit_01_34
+  - first:
+      213: 3058293537379067655
+    second: polit_01_35
+  - first:
+      213: 5337511270915069396
+    second: polit_01_36
+  - first:
+      213: -1135042407286261531
+    second: polit_01_37
+  - first:
+      213: -8802798785917705767
+    second: polit_01_38
+  - first:
+      213: -4197004557821392250
+    second: polit_01_39
+  - first:
+      213: 6418166186208140462
+    second: polit_01_40
+  - first:
+      213: -4109718397491171159
+    second: polit_01_41
+  - first:
+      213: 5445535659635000730
+    second: polit_01_42
+  - first:
+      213: 9048558369562425494
+    second: polit_01_43
+  - first:
+      213: 2615613500868730178
+    second: polit_01_44
+  - first:
+      213: -8910676564717676293
+    second: polit_01_45
+  - first:
+      213: -4493448232810892061
+    second: polit_01_46
+  - first:
+      213: 8708474039667188674
+    second: polit_01_47
+  - first:
+      213: -4797693017513408405
+    second: polit_01_48
+  - first:
+      213: -1245782498721454003
+    second: polit_01_49
+  - first:
+      213: 9188343248901545019
+    second: polit_01_50
+  - first:
+      213: -8512068901016203823
+    second: polit_01_51
+  - first:
+      213: 6020301172643725059
+    second: polit_01_52
+  - first:
+      213: -1090218659475720125
+    second: polit_01_53
+  - first:
+      213: 3035543190630893957
+    second: polit_01_54
+  - first:
+      213: 2677857150626036186
+    second: polit_01_55
+  - first:
+      213: -177666936085585462
+    second: polit_01_56
+  - first:
+      213: -7951306955873286012
+    second: polit_01_57
+  - first:
+      213: 116148591286468498
+    second: polit_01_58
+  - first:
+      213: -2886385663051190476
+    second: polit_01_59
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 220
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: polit_01_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11faffed766b92d0800000000000000
+      internalID: -3270908013271387877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb21a03755184630800000000000000
+      internalID: 3911399740593482744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b695ef554993df0800000000000000
+      internalID: -199965611380872426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565c78c3dd8f4b210800000000000000
+      internalID: 1347975817577612645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_4
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ba05e9b61c31390800000000000000
+      internalID: -7848717057614894249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_5
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436a60ff0dff4f770800000000000000
+      internalID: 8643814857927730740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_6
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e7eeb6a7592f690800000000000000
+      internalID: -7569823670627041724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_7
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4347beaac3ece10800000000000000
+      internalID: 2219778371132601506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_8
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae5093f771301be0800000000000000
+      internalID: -1508651483911922014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_9
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24aef35d9173c4be0800000000000000
+      internalID: -1491756792475030974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_10
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35ba89afff3e540800000000000000
+      internalID: 5036150260098618274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_11
+      rect:
+        serializedVersion: 2
+        x: 13200
+        y: 4800
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7e4191d709df450800000000000000
+      internalID: 6124209935259854815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ad919f3d9e82180800000000000000
+      internalID: -9139798347121829259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d070af7ba535486d0800000000000000
+      internalID: -2989172603568388339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464dfb1dd437c4d10800000000000000
+      internalID: 2111189103398605924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68c8a94f46641f40800000000000000
+      internalID: 5698291919254767727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_16
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ea265ab5f18b10800000000000000
+      internalID: 1982135491678102045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_17
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3224ba97eb8a6ca0800000000000000
+      internalID: -6022847724805414338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_18
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab10f2f7c0801880800000000000000
+      internalID: -8642266088661312601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_19
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d48e3909203aaf800800000000000000
+      internalID: 647008727891961933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_20
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0389b2921158a730800000000000000
+      internalID: 4010544608386319115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_21
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4214947ba5350ec40800000000000000
+      internalID: 5539519190752903460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_22
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6c97e9ca9290ed0800000000000000
+      internalID: -2447379101129259358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_23
+      rect:
+        serializedVersion: 2
+        x: 13200
+        y: 3600
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace5a7bc9465089f0800000000000000
+      internalID: -468279486300135734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591da29fc55b88570800000000000000
+      internalID: 8469218510192169365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_25
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33fada4605dbb390800000000000000
+      internalID: -7801407706486869190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_26
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81b93fa3348e1780800000000000000
+      internalID: -8710379271769968244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093c664ae8ed02800800000000000000
+      internalID: 585712655783084944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_28
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33659f322a5e035d0800000000000000
+      internalID: -3084713260197784013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_29
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9dff015f546fd90800000000000000
+      internalID: -7064382046629537373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_30
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a760963d43e8cd350800000000000000
+      internalID: 6042861157560682106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_31
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a10b97e2ac45880800000000000000
+      internalID: -8623045085548766594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_32
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bf4b660ad63fa20800000000000000
+      internalID: 3094937904618994554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_33
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5725b869c9729720800000000000000
+      internalID: 2851475420031035226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_34
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e84dd34fca05a90800000000000000
+      internalID: -7327166428722459009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_35
+      rect:
+        serializedVersion: 2
+        x: 13200
+        y: 2400
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7072a5ac4cd317a20800000000000000
+      internalID: 3058293537379067655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d55987b836a21a40800000000000000
+      internalID: 5337511270915069396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8b2bcb1f48f30f0800000000000000
+      internalID: -1135042407286261531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_38
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1a228b42d26d580800000000000000
+      internalID: -8802798785917705767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_39
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a4c52679e31c5c0800000000000000
+      internalID: -4197004557821392250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_40
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac1c563428e11950800000000000000
+      internalID: 6418166186208140462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_41
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0b6a644e857f6c0800000000000000
+      internalID: -4109718397491171159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_42
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95444ca4dd629b40800000000000000
+      internalID: 5445535659635000730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_43
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698f72355efe29d70800000000000000
+      internalID: 9048558369562425494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_44
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d1ff4fe968c4420800000000000000
+      internalID: 2615613500868730178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_45
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8da9b00eae65480800000000000000
+      internalID: -8910676564717676293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_46
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e433bab3a014a1c0800000000000000
+      internalID: -4493448232810892061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_47
+      rect:
+        serializedVersion: 2
+        x: 13200
+        y: 1200
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3e216eff6bad870800000000000000
+      internalID: 8708474039667188674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b68cdbdae9b2b6db0800000000000000
+      internalID: -4797693017513408405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_49
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d482f48fa6716bee0800000000000000
+      internalID: -1245782498721454003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_50
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c9221c08d838f70800000000000000
+      internalID: 9188343248901545019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_51
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd8743fe6e0fd980800000000000000
+      internalID: -8512068901016203823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_52
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ffb4405086c8350800000000000000
+      internalID: 6020301172643725059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_53
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348727ac7e3ced0f0800000000000000
+      internalID: -1090218659475720125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_54
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58909e9e27a602a20800000000000000
+      internalID: 3035543190630893957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_55
+      rect:
+        serializedVersion: 2
+        x: 8400
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9fd4ef3e8a92520800000000000000
+      internalID: 2677857150626036186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_56
+      rect:
+        serializedVersion: 2
+        x: 9600
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1694aecdcc88df0800000000000000
+      internalID: -177666936085585462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_57
+      rect:
+        serializedVersion: 2
+        x: 10800
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4888413937847a190800000000000000
+      internalID: -7951306955873286012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_58
+      rect:
+        serializedVersion: 2
+        x: 12000
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fbac44784ac9100800000000000000
+      internalID: 116148591286468498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: polit_01_59
+      rect:
+        serializedVersion: 2
+        x: 13200
+        y: 0
+        width: 1200
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fad0d388f71f7d0800000000000000
+      internalID: -2886385663051190476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

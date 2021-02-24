@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28e47390b9643d64b8f15a27a67e58aa, type: 3}
+  m_Name: EventJokes_3
+  m_EditorClassIdentifier: 
+  jokeStart: I am the best
+  jokeFinal: president.
+  answerJokes:
+  - {fileID: 21300000, guid: 504dd9fe18e3b3a458f5ed4e99a8e929, type: 3}
+  - {fileID: 21300000, guid: 34740271706eb654d9265555118f09a4, type: 3}
+  trueAnswer: 0
